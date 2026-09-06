@@ -61,10 +61,27 @@ def fetch_subscription(url: str) -> Dict[str, Any]:
     try:
         resp = requests.get(url, timeout=30)
         resp.raise_for_status()
-        data = yaml.safe_load(resp.text)
-        return data if data else {}
+        content = resp.text
+
+        # تلاش برای بارگذاری YAML
+        try:
+            # ابتدا safe_load را امتحان می‌کنیم
+            data = yaml.safe_load(content)
+            if isinstance(data, dict):
+                return data
+            else:
+                # اگر دیکشنری نبود، احتمالاً چندین سند با --- وجود دارد
+                docs = list(yaml.safe_load_all(content))
+                merged = {}
+                for doc in docs:
+                    if isinstance(doc, dict):
+                        merged.update(doc)
+                return merged
+        except yaml.YAMLError as e:
+            logger.error(f"خطا در پردازش YAML از {url}: {e}")
+            return {}
     except Exception as e:
-        logger.error(f"خطا در دریافت یا پردازش {url}: {e}")
+        logger.error(f"خطا در دریافت {url}: {e}")
         return {}
 
 
