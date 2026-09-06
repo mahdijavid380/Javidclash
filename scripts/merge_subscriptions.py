@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-ترکیب چندین لینک ساب‌اسکریپشن و تولید کانفیگ Clash Meta.
-متغیر محیطی SUB_URLS شامل لینک‌ها (هر لینک در یک خط) است.
+ترکیب چندین لینک ساب‌اسکریپشن (شامل YAML/JSON و لیست URLهای پروکسی)
+و تولید کانفیگ Clash Meta.
 """
 
 import os
@@ -10,6 +10,7 @@ import yaml
 import json
 import base64
 import requests
+from urllib.parse import urlparse, parse_qs
 from typing import List, Dict, Any, Optional
 import logging
 
@@ -57,9 +58,93 @@ RULES = [
 
 # ========== توابع ==========
 
+def parse_vless_url(url: str) -> Optional[Dict[str, Any]]:
+    """
+    Parse یک URL vless:// و تبدیل به دیکشنری پروکسی Clash.
+    مثال:
+    vless://uuid@server:port?type=ws&host=example.com&path=/path&tls=true&servername=example.com
+    """
+    if not url.startswith('vless://'):
+        return None
+
+    try:
+        # حذف vless://
+        raw = url[8:]
+        # جدا کردن UUID و بقیه
+        if '@' not in raw:
+            return None
+        uuid, rest = raw.split('@', 1)
+        # جدا کردن سرور و پورت
+        if ':' not in rest:
+            return None
+        server, port_and_params = rest.split(':', 1)
+        if '?' not in port_and_params:
+            return None
+        port_str, query = port_and_params.split('?', 1)
+        port = int(port_str)
+
+        # parse پارامترها
+        params = parse_qs(query)
+        # پارامترها ممکن است به صورت لیست باشند، مقدار اول را می‌گیریم
+        def get_first(key):
+            return params.get(key, [''])[0] if params.get(key) else ''
+
+        network = get_first('type') or 'ws'
+        host = get_first('host')  # Host header
+        path = get_first('path') or '/'
+        tls = get_first('tls') == 'true' or get_first('tls') == '1' or get_first('security') == 'tls'
+        servername = get_first('servername') or get_first('sni') or host or server
+
+        # ساخت نام یکتا
+        name = f"VLESS-{server}-{port}"
+
+        proxy = {
+            "type": "vless",
+            "name": name,
+            "server": server,
+            "port": port,
+            "uuid": uuid,
+            "network": network,
+            "tls": tls,
+        }
+
+        # افزودن servername در صورت وجود
+        if servername:
+            proxy["servername"] = servername
+
+        # تنظیمات ws-opts
+        if network == 'ws':
+            ws_opts = {"path": path}
+            if host:
+                ws_opts["headers"] = {"Host": host}
+            proxy["ws-opts"] = ws_opts
+
+        return proxy
+
+    except Exception as e:
+        logger.debug(f"خطا در parse URL {url}: {e}")
+        return None
+
+
+def parse_proxy_urls(content: str) -> List[Dict[str, Any]]:
+    """استخراج پروکسی‌ها از لیست URLها (vless://, vmess://, ...)."""
+    proxies = []
+    for line in content.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        # فعلاً فقط vless را پشتیبانی می‌کنیم
+        if line.startswith('vless://'):
+            p = parse_vless_url(line)
+            if p:
+                proxies.append(p)
+        # در آینده می‌توان برای vmess، trojan و ... هم افزود
+    return proxies
+
+
 def parse_content(content: str) -> Optional[Dict[str, Any]]:
-    """تلاش برای parse محتوا به دیکشنری."""
-    # YAML (با پشتیبانی از چند سند)
+    """تلاش برای parse محتوا به دیکشنری (YAML/JSON/URL list)."""
+    # 1. YAML
     try:
         docs = list(yaml.safe_load_all(content))
         merged = {}
@@ -68,18 +153,23 @@ def parse_content(content: str) -> Optional[Dict[str, Any]]:
                 merged.update(doc)
         if merged:
             return merged
-    except yaml.YAMLError as e:
-        logger.debug(f"YAML parsing failed: {e}")
+    except yaml.YAMLError:
+        pass
 
-    # JSON
+    # 2. JSON
     try:
         data = json.loads(content)
         if isinstance(data, dict):
             return data
         elif isinstance(data, list):
             return {"proxies": data}
-    except json.JSONDecodeError as e:
-        logger.debug(f"JSON parsing failed: {e}")
+    except json.JSONDecodeError:
+        pass
+
+    # 3. لیست URLهای پروکسی
+    proxies = parse_proxy_urls(content)
+    if proxies:
+        return {"proxies": proxies}
 
     return None
 
@@ -87,7 +177,7 @@ def parse_content(content: str) -> Optional[Dict[str, Any]]:
 def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
     """دریافت محتوا از لینک ساب."""
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept": "application/yaml, application/json, text/plain, */*"
     }
     try:
@@ -99,19 +189,18 @@ def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
             logger.warning(f"محتوای خالی از {url} دریافت شد.")
             return None
 
-        # ذخیره محتوای خام برای دیباگ (در صورت نیاز)
+        # ذخیره محتوای خام برای دیباگ
         debug_dir = "debug"
         os.makedirs(debug_dir, exist_ok=True)
-        filename = f"{debug_dir}/raw_content_{url.replace('/', '_')[:50]}.txt"
+        filename = f"{debug_dir}/raw_{url.replace('/', '_')[:50]}.txt"
         with open(filename, "w", encoding="utf-8") as f:
             f.write(content)
-        logger.info(f"محتوای خام در {filename} ذخیره شد (برای بررسی دستی).")
+        logger.info(f"محتوای خام در {filename} ذخیره شد.")
 
-        # لاگ نمونه محتوا (100 کاراکتر اول)
         sample = content[:100].replace('\n', ' ').replace('\r', '')
-        logger.info(f"نمونه محتوا از {url}: {sample}...")
+        logger.info(f"نمونه محتوا: {sample}...")
 
-        # تلاش برای parse با محتوای اصلی
+        # تلاش برای parse
         result = parse_content(content)
         if result:
             return result
@@ -123,20 +212,10 @@ def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
             if result:
                 logger.info("محتوای base64 decode شد و pars شد.")
                 return result
-        except Exception as e:
-            logger.debug(f"Base64 decode failed: {e}")
+        except Exception:
+            pass
 
-        # اگر با vmess:// یا vless:// شروع شد، به عنوان لیست URL
-        if any(content.startswith(prefix) for prefix in ('vmess://', 'vless://', 'trojan://', 'ss://')):
-            logger.warning("محتوای شامل URLهای پروکسی است، اما اسکریپت فعلاً آن‌ها را پشتیبانی نمی‌کند.")
-            return None
-
-        # اگر محتوا شبیه HTML است
-        if content.strip().startswith('<!DOCTYPE') or content.strip().startswith('<html'):
-            logger.error("محتوای دریافتی یک صفحه HTML است (احتمالاً خطا یا ریدایرکت).")
-            return None
-
-        logger.error(f"فرمت محتوای {url} قابل تشخیص نیست. لطفاً فایل {filename} را بررسی کنید.")
+        logger.error(f"فرمت محتوای {url} قابل تشخیص نیست.")
         return None
 
     except requests.exceptions.RequestException as e:
@@ -224,7 +303,7 @@ def main():
                 logger.info(f"تعداد {len(proxies)} پروکسی از {url} دریافت شد.")
                 all_proxies_list.append(proxies)
             else:
-                logger.warning(f"هیچ پروکسی در {url} یافت نشد. کلیدهای موجود: {list(data.keys())}")
+                logger.warning(f"هیچ پروکسی در {url} یافت نشد. کلیدها: {list(data.keys())}")
         else:
             logger.warning(f"دریافت داده از {url} ناموفق بود.")
 
