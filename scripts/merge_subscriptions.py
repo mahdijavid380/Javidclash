@@ -8,6 +8,7 @@ import os
 import sys
 import yaml
 import json
+import base64
 import requests
 from typing import List, Dict, Any, Optional
 import logging
@@ -56,11 +57,35 @@ RULES = [
 
 # ========== توابع ==========
 
+def parse_content(content: str) -> Optional[Dict[str, Any]]:
+    """تلاش برای parse محتوا به دیکشنری."""
+    # YAML (با پشتیبانی از چند سند)
+    try:
+        docs = list(yaml.safe_load_all(content))
+        merged = {}
+        for doc in docs:
+            if isinstance(doc, dict):
+                merged.update(doc)
+        if merged:
+            return merged
+    except yaml.YAMLError as e:
+        logger.debug(f"YAML parsing failed: {e}")
+
+    # JSON
+    try:
+        data = json.loads(content)
+        if isinstance(data, dict):
+            return data
+        elif isinstance(data, list):
+            return {"proxies": data}
+    except json.JSONDecodeError as e:
+        logger.debug(f"JSON parsing failed: {e}")
+
+    return None
+
+
 def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
-    """
-    دریافت محتوا از لینک ساب و تبدیل به دیکشنری.
-    پشتیبانی از YAML و JSON.
-    """
+    """دریافت محتوا از لینک ساب."""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/yaml, application/json, text/plain, */*"
@@ -68,38 +93,50 @@ def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
     try:
         resp = requests.get(url, headers=headers, timeout=30)
         resp.raise_for_status()
-        content = resp.text.strip()
+        content = resp.text
 
-        if not content:
+        if not content or not content.strip():
             logger.warning(f"محتوای خالی از {url} دریافت شد.")
             return None
 
-        # نمایش ۲۰۰ کاراکتر اول برای دیباگ (بدون اطلاعات حساس)
-        logger.debug(f"نمونه محتوا: {content[:200]}...")
+        # ذخیره محتوای خام برای دیباگ (در صورت نیاز)
+        debug_dir = "debug"
+        os.makedirs(debug_dir, exist_ok=True)
+        filename = f"{debug_dir}/raw_content_{url.replace('/', '_')[:50]}.txt"
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(content)
+        logger.info(f"محتوای خام در {filename} ذخیره شد (برای بررسی دستی).")
 
-        # تلاش برای بارگذاری YAML (با پشتیبانی از چند سند)
+        # لاگ نمونه محتوا (100 کاراکتر اول)
+        sample = content[:100].replace('\n', ' ').replace('\r', '')
+        logger.info(f"نمونه محتوا از {url}: {sample}...")
+
+        # تلاش برای parse با محتوای اصلی
+        result = parse_content(content)
+        if result:
+            return result
+
+        # تلاش با decode base64
         try:
-            docs = list(yaml.safe_load_all(content))
-            # ادغام اسناد متعدد
-            merged = {}
-            for doc in docs:
-                if isinstance(doc, dict):
-                    merged.update(doc)
-            if merged:
-                return merged
-        except yaml.YAMLError as e:
-            logger.debug(f"YAML parsing failed: {e}")
+            decoded = base64.b64decode(content).decode('utf-8', errors='ignore')
+            result = parse_content(decoded)
+            if result:
+                logger.info("محتوای base64 decode شد و pars شد.")
+                return result
+        except Exception as e:
+            logger.debug(f"Base64 decode failed: {e}")
 
-        # تلاش برای بارگذاری JSON
-        try:
-            data = json.loads(content)
-            if isinstance(data, dict):
-                return data
-        except json.JSONDecodeError as e:
-            logger.debug(f"JSON parsing failed: {e}")
+        # اگر با vmess:// یا vless:// شروع شد، به عنوان لیست URL
+        if any(content.startswith(prefix) for prefix in ('vmess://', 'vless://', 'trojan://', 'ss://')):
+            logger.warning("محتوای شامل URLهای پروکسی است، اما اسکریپت فعلاً آن‌ها را پشتیبانی نمی‌کند.")
+            return None
 
-        # اگر هیچکدام موفق نشد، خطا ثبت می‌شود
-        logger.error(f"فرمت محتوای {url} قابل تشخیص نیست (نه YAML و نه JSON).")
+        # اگر محتوا شبیه HTML است
+        if content.strip().startswith('<!DOCTYPE') or content.strip().startswith('<html'):
+            logger.error("محتوای دریافتی یک صفحه HTML است (احتمالاً خطا یا ریدایرکت).")
+            return None
+
+        logger.error(f"فرمت محتوای {url} قابل تشخیص نیست. لطفاً فایل {filename} را بررسی کنید.")
         return None
 
     except requests.exceptions.RequestException as e:
@@ -187,7 +224,7 @@ def main():
                 logger.info(f"تعداد {len(proxies)} پروکسی از {url} دریافت شد.")
                 all_proxies_list.append(proxies)
             else:
-                logger.warning(f"هیچ پروکسی در {url} یافت نشد. ساختار داده: {list(data.keys())}")
+                logger.warning(f"هیچ پروکسی در {url} یافت نشد. کلیدهای موجود: {list(data.keys())}")
         else:
             logger.warning(f"دریافت داده از {url} ناموفق بود.")
 
