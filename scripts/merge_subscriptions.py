@@ -7,14 +7,15 @@
 import os
 import sys
 import yaml
+import json
 import requests
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Any, Optional
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# ========== تنظیمات ثابت (بر اساس فایل نمونه) ==========
+# ========== تنظیمات ثابت ==========
 BASE_CONFIG = {
     "port": 7890,
     "socks-port": 7891,
@@ -35,7 +36,6 @@ BASE_CONFIG = {
     }
 }
 
-# قوانین مسیریابی (بر اساس نمونه)
 RULES = [
     "DOMAIN-SUFFIX,ir,DIRECT",
     "DOMAIN-KEYWORD,sheypoor,DIRECT",
@@ -54,39 +54,60 @@ RULES = [
     "MATCH,🔰 انتخاب پروکسی"
 ]
 
-# ========== توابع کمکی ==========
+# ========== توابع ==========
 
-def fetch_subscription(url: str) -> Dict[str, Any]:
-    """دریافت و parse محتوای ساب (فرمت YAML)."""
+def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
+    """
+    دریافت محتوا از لینک ساب و تبدیل به دیکشنری.
+    پشتیبانی از YAML و JSON.
+    """
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/yaml, application/json, text/plain, */*"
+    }
     try:
-        resp = requests.get(url, timeout=30)
+        resp = requests.get(url, headers=headers, timeout=30)
         resp.raise_for_status()
-        content = resp.text
+        content = resp.text.strip()
 
-        # تلاش برای بارگذاری YAML
+        if not content:
+            logger.warning(f"محتوای خالی از {url} دریافت شد.")
+            return None
+
+        # نمایش ۲۰۰ کاراکتر اول برای دیباگ (بدون اطلاعات حساس)
+        logger.debug(f"نمونه محتوا: {content[:200]}...")
+
+        # تلاش برای بارگذاری YAML (با پشتیبانی از چند سند)
         try:
-            # ابتدا safe_load را امتحان می‌کنیم
-            data = yaml.safe_load(content)
-            if isinstance(data, dict):
-                return data
-            else:
-                # اگر دیکشنری نبود، احتمالاً چندین سند با --- وجود دارد
-                docs = list(yaml.safe_load_all(content))
-                merged = {}
-                for doc in docs:
-                    if isinstance(doc, dict):
-                        merged.update(doc)
+            docs = list(yaml.safe_load_all(content))
+            # ادغام اسناد متعدد
+            merged = {}
+            for doc in docs:
+                if isinstance(doc, dict):
+                    merged.update(doc)
+            if merged:
                 return merged
         except yaml.YAMLError as e:
-            logger.error(f"خطا در پردازش YAML از {url}: {e}")
-            return {}
-    except Exception as e:
-        logger.error(f"خطا در دریافت {url}: {e}")
-        return {}
+            logger.debug(f"YAML parsing failed: {e}")
+
+        # تلاش برای بارگذاری JSON
+        try:
+            data = json.loads(content)
+            if isinstance(data, dict):
+                return data
+        except json.JSONDecodeError as e:
+            logger.debug(f"JSON parsing failed: {e}")
+
+        # اگر هیچکدام موفق نشد، خطا ثبت می‌شود
+        logger.error(f"فرمت محتوای {url} قابل تشخیص نیست (نه YAML و نه JSON).")
+        return None
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"خطا در درخواست به {url}: {e}")
+        return None
 
 
 def get_proxies(data: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """استخراج لیست پروکسی‌ها از دیکشنری ساب."""
     proxies = data.get('proxies')
     if isinstance(proxies, list):
         return proxies
@@ -94,7 +115,6 @@ def get_proxies(data: Dict[str, Any]) -> List[Dict[str, Any]]:
 
 
 def generate_proxy_key(proxy: Dict[str, Any]) -> str:
-    """ساخت کلید یکتا برای تشخیص پروکسی‌های تکراری."""
     server = proxy.get('server', '')
     port = proxy.get('port', '')
     uuid = proxy.get('uuid', '')
@@ -107,7 +127,6 @@ def generate_proxy_key(proxy: Dict[str, Any]) -> str:
 
 
 def merge_proxies(proxies_list: List[List[Dict]]) -> List[Dict]:
-    """ادغام لیست‌های پروکسی و حذف موارد تکراری."""
     seen = set()
     merged = []
     for proxies in proxies_list:
@@ -120,17 +139,14 @@ def merge_proxies(proxies_list: List[List[Dict]]) -> List[Dict]:
 
 
 def build_proxy_groups(all_proxies: List[Dict]) -> List[Dict]:
-    """ساخت گروه‌های پروکسی بر اساس لیست پروکسی‌های نهایی."""
     proxy_names = [p.get('name') for p in all_proxies if p.get('name')]
 
-    # گروه انتخاب دستی
     select_group = {
         "name": "🔰 انتخاب پروکسی",
         "type": "select",
         "proxies": ["♻️ خودکار", "DIRECT"] + proxy_names
     }
 
-    # گروه خودکار (url-test)
     auto_group = {
         "name": "♻️ خودکار",
         "type": "url-test",
@@ -140,7 +156,6 @@ def build_proxy_groups(all_proxies: List[Dict]) -> List[Dict]:
         "proxies": proxy_names
     }
 
-    # گروه مخصوص سرویس‌های ایرانی
     iran_group = {
         "name": "🇮🇷 سرویس‌های ایرانی",
         "type": "select",
@@ -151,7 +166,6 @@ def build_proxy_groups(all_proxies: List[Dict]) -> List[Dict]:
 
 
 def main():
-    # خواندن لینک‌ها از متغیر محیطی
     sub_urls_str = os.environ.get('SUB_URLS', '')
     if not sub_urls_str:
         logger.error("متغیر محیطی SUB_URLS تنظیم نشده است.")
@@ -173,7 +187,7 @@ def main():
                 logger.info(f"تعداد {len(proxies)} پروکسی از {url} دریافت شد.")
                 all_proxies_list.append(proxies)
             else:
-                logger.warning(f"هیچ پروکسی در {url} یافت نشد.")
+                logger.warning(f"هیچ پروکسی در {url} یافت نشد. ساختار داده: {list(data.keys())}")
         else:
             logger.warning(f"دریافت داده از {url} ناموفق بود.")
 
@@ -184,14 +198,12 @@ def main():
     merged_proxies = merge_proxies(all_proxies_list)
     logger.info(f"تعداد پروکسی‌های یکتا: {len(merged_proxies)}")
 
-    # ساخت گروه‌ها و کانفیگ نهایی
     proxy_groups = build_proxy_groups(merged_proxies)
     config = BASE_CONFIG.copy()
     config['proxies'] = merged_proxies
     config['proxy-groups'] = proxy_groups
     config['rules'] = RULES
 
-    # ذخیره فایل خروجی
     os.makedirs('output', exist_ok=True)
     output_path = 'output/config.yaml'
     with open(output_path, 'w', encoding='utf-8') as f:
