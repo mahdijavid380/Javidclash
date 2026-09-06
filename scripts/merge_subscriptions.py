@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ترکیب چندین لینک ساب‌اسکریپشن (شامل YAML/JSON و لیست URLهای پروکسی)
-و تولید کانفیگ Clash Meta با نام‌های یکتا.
+و تولید کانفیگ Clash Meta با نام‌های کاملاً یکتا.
 """
 
 import os
@@ -60,34 +60,35 @@ RULES = [
 # ========== توابع ==========
 
 def generate_unique_name(server: str, port: int, uuid: str, path: str = "", host: str = "") -> str:
-    """تولید نام یکتا بر اساس اطلاعات پروکسی."""
-    # اگر host موجود باشد، از آن استفاده می‌کنیم (معمولاً نام دامنه معنی‌دار است)
-    base = host if host else server
-    # حذف کاراکترهای غیرمجاز برای نام
+    """
+    تولید نام یکتا بر اساس اطلاعات پروکسی.
+    از ترکیب server, port, uuid (8 کاراکتر) و path (در صورت وجود) استفاده می‌کند.
+    """
+    # نام پایه: server-port
+    base = f"{server}-{port}"
+    # اگر host وجود دارد و با server متفاوت است، آن را جایگزین می‌کنیم (برای خوانایی بهتر)
+    if host and host != server:
+        base = f"{host}-{port}"
+    # پاکسازی کاراکترهای غیرمجاز
     base = base.replace('.', '-').replace(':', '-')
-    # از 8 کاراکتر اول UUID استفاده می‌کنیم
-    short_uuid = uuid[:8]
-    # اگر مسیر خاصی وجود دارد، آن را هم اضافه می‌کنیم (برای تشخیص بهتر)
+    # هش 8 کاراکتری از UUID (برای یکتایی)
+    hash_part = hashlib.md5(uuid.encode()).hexdigest()[:8]
+    # اگر مسیر خاصی وجود دارد، 5 کاراکتر اول آن را اضافه می‌کنیم
     path_suffix = ""
     if path and path != "/":
-        # فقط 5 کاراکتر اول مسیر را می‌گیریم
-        clean_path = path.strip('/').replace('/', '-')[:5]
+        clean_path = path.strip('/').replace('/', '-').replace('?', '-')[:5]
         if clean_path:
             path_suffix = f"-{clean_path}"
     # ترکیب نهایی
-    name = f"{base}-{port}-{short_uuid}{path_suffix}"
-    # اگر نام طولانی شد، کوتاه می‌کنیم (حداکثر 50 کاراکتر)
+    name = f"{base}-{hash_part}{path_suffix}"
+    # اگر طول نام از 50 کاراکتر بیشتر شد، کوتاه می‌کنیم
     if len(name) > 50:
-        # هش می‌گیریم و از 8 کاراکتر اول استفاده می‌کنیم
-        hash_part = hashlib.md5(name.encode()).hexdigest()[:8]
-        name = f"{base[:20]}-{port}-{hash_part}"
+        name = f"{base[:20]}-{hash_part}"
     return name
 
 
 def parse_vless_url(url: str) -> Optional[Dict[str, Any]]:
-    """
-    Parse یک URL vless:// و تبدیل به دیکشنری پروکسی Clash.
-    """
+    """Parse یک URL vless:// و تبدیل به دیکشنری پروکسی Clash."""
     if not url.startswith('vless://'):
         return None
 
@@ -117,10 +118,14 @@ def parse_vless_url(url: str) -> Optional[Dict[str, Any]]:
 
         # تولید نام یکتا
         name = generate_unique_name(server, port, uuid, path, host)
-        # اگر remark وجود داشت، می‌توان از آن استفاده کرد اما باید یکتا بودن را تضمین کنیم
+        # اگر remark وجود داشت، می‌توان از آن استفاده کرد اما برای اطمینان از یکتایی، هش uuid را اضافه می‌کنیم
         if remark:
-            # برای جلوگیری از تداخل، از ترکیب remark و uuid استفاده می‌کنیم
-            name = f"{remark[:30]}-{uuid[:8]}"
+            # نام را با remark و هش کوتاه می‌سازیم
+            clean_remark = remark.replace(' ', '_').replace('.', '-')[:20]
+            name = f"{clean_remark}-{hashlib.md5(uuid.encode()).hexdigest()[:6]}"
+            # اگر بیش از 50 کاراکتر شد، کوتاه می‌کنیم
+            if len(name) > 50:
+                name = name[:50]
 
         proxy = {
             "type": "vless",
@@ -159,7 +164,7 @@ def parse_proxy_urls(content: str) -> List[Dict[str, Any]]:
             p = parse_vless_url(line)
             if p:
                 proxies.append(p)
-        # می‌توان برای vmess, trojan, ss هم اضافه کرد
+        # در آینده می‌توان برای vmess، trojan، ss هم افزود
     return proxies
 
 
@@ -274,6 +279,19 @@ def merge_proxies(proxies_list: List[List[Dict]]) -> List[Dict]:
     return merged
 
 
+def ensure_unique_names(proxies: List[Dict]) -> List[Dict]:
+    """اطمینان از یکتایی نام‌ها با اضافه کردن شماره در صورت نیاز."""
+    name_counter = {}
+    for proxy in proxies:
+        name = proxy['name']
+        if name in name_counter:
+            name_counter[name] += 1
+            proxy['name'] = f"{name}-{name_counter[name]}"
+        else:
+            name_counter[name] = 1
+    return proxies
+
+
 def build_proxy_groups(all_proxies: List[Dict]) -> List[Dict]:
     proxy_names = [p.get('name') for p in all_proxies if p.get('name')]
 
@@ -334,15 +352,8 @@ def main():
     merged_proxies = merge_proxies(all_proxies_list)
     logger.info(f"تعداد پروکسی‌های یکتا: {len(merged_proxies)}")
 
-    # اطمینان از یکتایی نام‌ها (در صورت وجود تکراری، یک عدد به انتها اضافه می‌کنیم)
-    name_count = {}
-    for proxy in merged_proxies:
-        name = proxy['name']
-        if name in name_count:
-            name_count[name] += 1
-            proxy['name'] = f"{name}-{name_count[name]}"
-        else:
-            name_count[name] = 1
+    # اطمینان از یکتایی نام‌ها
+    merged_proxies = ensure_unique_names(merged_proxies)
 
     proxy_groups = build_proxy_groups(merged_proxies)
     config = BASE_CONFIG.copy()
