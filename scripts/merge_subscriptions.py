@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ترکیب چندین لینک ساب‌اسکریپشن (شامل YAML/JSON و لیست URLهای پروکسی)
-و تولید کانفیگ Clash Meta.
+و تولید کانفیگ Clash Meta با نام‌های یکتا.
 """
 
 import os
@@ -13,6 +13,7 @@ import requests
 from urllib.parse import urlparse, parse_qs
 from typing import List, Dict, Any, Optional
 import logging
+import hashlib
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -58,23 +59,43 @@ RULES = [
 
 # ========== توابع ==========
 
+def generate_unique_name(server: str, port: int, uuid: str, path: str = "", host: str = "") -> str:
+    """تولید نام یکتا بر اساس اطلاعات پروکسی."""
+    # اگر host موجود باشد، از آن استفاده می‌کنیم (معمولاً نام دامنه معنی‌دار است)
+    base = host if host else server
+    # حذف کاراکترهای غیرمجاز برای نام
+    base = base.replace('.', '-').replace(':', '-')
+    # از 8 کاراکتر اول UUID استفاده می‌کنیم
+    short_uuid = uuid[:8]
+    # اگر مسیر خاصی وجود دارد، آن را هم اضافه می‌کنیم (برای تشخیص بهتر)
+    path_suffix = ""
+    if path and path != "/":
+        # فقط 5 کاراکتر اول مسیر را می‌گیریم
+        clean_path = path.strip('/').replace('/', '-')[:5]
+        if clean_path:
+            path_suffix = f"-{clean_path}"
+    # ترکیب نهایی
+    name = f"{base}-{port}-{short_uuid}{path_suffix}"
+    # اگر نام طولانی شد، کوتاه می‌کنیم (حداکثر 50 کاراکتر)
+    if len(name) > 50:
+        # هش می‌گیریم و از 8 کاراکتر اول استفاده می‌کنیم
+        hash_part = hashlib.md5(name.encode()).hexdigest()[:8]
+        name = f"{base[:20]}-{port}-{hash_part}"
+    return name
+
+
 def parse_vless_url(url: str) -> Optional[Dict[str, Any]]:
     """
     Parse یک URL vless:// و تبدیل به دیکشنری پروکسی Clash.
-    مثال:
-    vless://uuid@server:port?type=ws&host=example.com&path=/path&tls=true&servername=example.com
     """
     if not url.startswith('vless://'):
         return None
 
     try:
-        # حذف vless://
         raw = url[8:]
-        # جدا کردن UUID و بقیه
         if '@' not in raw:
             return None
         uuid, rest = raw.split('@', 1)
-        # جدا کردن سرور و پورت
         if ':' not in rest:
             return None
         server, port_and_params = rest.split(':', 1)
@@ -83,20 +104,23 @@ def parse_vless_url(url: str) -> Optional[Dict[str, Any]]:
         port_str, query = port_and_params.split('?', 1)
         port = int(port_str)
 
-        # parse پارامترها
         params = parse_qs(query)
-        # پارامترها ممکن است به صورت لیست باشند، مقدار اول را می‌گیریم
         def get_first(key):
             return params.get(key, [''])[0] if params.get(key) else ''
 
         network = get_first('type') or 'ws'
-        host = get_first('host')  # Host header
+        host = get_first('host')
         path = get_first('path') or '/'
         tls = get_first('tls') == 'true' or get_first('tls') == '1' or get_first('security') == 'tls'
         servername = get_first('servername') or get_first('sni') or host or server
+        remark = get_first('remark') or get_first('name') or ""
 
-        # ساخت نام یکتا
-        name = f"VLESS-{server}-{port}"
+        # تولید نام یکتا
+        name = generate_unique_name(server, port, uuid, path, host)
+        # اگر remark وجود داشت، می‌توان از آن استفاده کرد اما باید یکتا بودن را تضمین کنیم
+        if remark:
+            # برای جلوگیری از تداخل، از ترکیب remark و uuid استفاده می‌کنیم
+            name = f"{remark[:30]}-{uuid[:8]}"
 
         proxy = {
             "type": "vless",
@@ -108,11 +132,9 @@ def parse_vless_url(url: str) -> Optional[Dict[str, Any]]:
             "tls": tls,
         }
 
-        # افزودن servername در صورت وجود
         if servername:
             proxy["servername"] = servername
 
-        # تنظیمات ws-opts
         if network == 'ws':
             ws_opts = {"path": path}
             if host:
@@ -133,18 +155,17 @@ def parse_proxy_urls(content: str) -> List[Dict[str, Any]]:
         line = line.strip()
         if not line:
             continue
-        # فعلاً فقط vless را پشتیبانی می‌کنیم
         if line.startswith('vless://'):
             p = parse_vless_url(line)
             if p:
                 proxies.append(p)
-        # در آینده می‌توان برای vmess، trojan و ... هم افزود
+        # می‌توان برای vmess, trojan, ss هم اضافه کرد
     return proxies
 
 
 def parse_content(content: str) -> Optional[Dict[str, Any]]:
     """تلاش برای parse محتوا به دیکشنری (YAML/JSON/URL list)."""
-    # 1. YAML
+    # YAML
     try:
         docs = list(yaml.safe_load_all(content))
         merged = {}
@@ -156,7 +177,7 @@ def parse_content(content: str) -> Optional[Dict[str, Any]]:
     except yaml.YAMLError:
         pass
 
-    # 2. JSON
+    # JSON
     try:
         data = json.loads(content)
         if isinstance(data, dict):
@@ -166,7 +187,7 @@ def parse_content(content: str) -> Optional[Dict[str, Any]]:
     except json.JSONDecodeError:
         pass
 
-    # 3. لیست URLهای پروکسی
+    # لیست URLهای پروکسی
     proxies = parse_proxy_urls(content)
     if proxies:
         return {"proxies": proxies}
@@ -200,7 +221,6 @@ def fetch_subscription(url: str) -> Optional[Dict[str, Any]]:
         sample = content[:100].replace('\n', ' ').replace('\r', '')
         logger.info(f"نمونه محتوا: {sample}...")
 
-        # تلاش برای parse
         result = parse_content(content)
         if result:
             return result
@@ -313,6 +333,16 @@ def main():
 
     merged_proxies = merge_proxies(all_proxies_list)
     logger.info(f"تعداد پروکسی‌های یکتا: {len(merged_proxies)}")
+
+    # اطمینان از یکتایی نام‌ها (در صورت وجود تکراری، یک عدد به انتها اضافه می‌کنیم)
+    name_count = {}
+    for proxy in merged_proxies:
+        name = proxy['name']
+        if name in name_count:
+            name_count[name] += 1
+            proxy['name'] = f"{name}-{name_count[name]}"
+        else:
+            name_count[name] = 1
 
     proxy_groups = build_proxy_groups(merged_proxies)
     config = BASE_CONFIG.copy()
