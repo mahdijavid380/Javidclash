@@ -17,267 +17,1011 @@ dns:
   - https://1.1.1.1/dns-query
 proxies:
 - type: vless
+  name: zr-wasm-mahdijavid37-59e37370
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /lpTx5PvdjTBy?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-2
+  server: creativecommons.org
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /aGbYUVYCc7Sf?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-3
+  server: sky.rethinkdns.com
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /bFFVuGfLzzHZ?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-4
+  server: www.speedtest.net
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /jfHf7fHKPP9k?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-5
+  server: singapore.com
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /vRJEmCl9Kz14?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-6
+  server: go.inmobi.com
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /DaVwKkJsD5qz?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-7
+  server: www.visa.com
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /aeMMtZErTSvr?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-8
+  server: www.wto.org
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /UXR4U5n7qP5H?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-9
+  server: chatgpt.com
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /aOFaxggSHuU0?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-10
+  server: medium.com
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /QHvZKqByga7F?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-11
+  server: lb.nscl.ir
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /W9rx2yFGHKQZ?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-12
+  server: nodejs.org
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /dF0ZvMVLvZbR?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-13
+  server: linkerd.io
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /CqZgSFWESvJ4?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-14
+  server: harbor.io
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /AK4b7Vl7hhma?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-15
+  server: npmjs.com
+  port: 2087
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /BXw0ZK0rOVXL?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-16
+  server: csgo.com
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /vEVprlznhvA7?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-17
+  server: fbi.gov
+  port: 2087
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /GnLzevIlS8P3?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-18
+  server: ip.sb
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /0x4po8Aizv77?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-19
+  server: time.is
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /MyM2kbWeJPNw?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-20
+  server: icook.hk
+  port: 2087
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /jZs97BZ1Wgrv?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-21
+  server: codepen.io
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /aH0v8m5eplWG?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-22
+  server: unpkg.com
+  port: 2096
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /Tu7mF3wi6JfR?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-23
+  server: jsdelivr.com
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /pcvQdWJhlhs9?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-24
+  server: www.cdnjs.com
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /BBM0wlGFgWna?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-25
+  server: auth.vercel.com
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /zARmwQAU1hsc?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-26
+  server: www.udacity.com
+  port: 2096
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /wBTDo7xoIG6r?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-27
+  server: www.gitbook.com
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /3yarNLEquGA5?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-28
+  server: www.ipaddress.my
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /0T74YN8TKraG?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-29
+  server: www.glassdoor.com
+  port: 2096
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /db3wzQLwWTvz?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-30
+  server: www.ipchicken.com
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /XKF2tPd858iG?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-31
+  server: static.cloudflareinsights.com
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /XtuufJiPvRoU?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-32
+  server: 104.16.0.170
+  port: 2087
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /RrUpkns5YptM?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-33
+  server: 162.159.193.205
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /gHqYKtL47aUb?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-34
+  server: 104.17.148.36
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /PKnnXpYuQeHO?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-35
+  server: 104.18.79.91
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /sEuBhCSz5R0Q?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-36
+  server: 162.159.243.33
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /OWEeIamaFMng?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-37
+  server: 162.159.195.205
+  port: 2096
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /nPPDoD9Syaax?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-38
+  server: 172.66.147.179
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /YVWuR8jGFKS2?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-39
+  server: 188.114.97.175
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /jcNm4ZE3uus0?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-40
+  server: 172.67.158.230
+  port: 2096
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /47XcIXCUSEFa?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-41
+  server: 104.16.140.74
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /BtBeXqEGAtyJ?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-42
+  server: 188.114.98.41
+  port: 2083
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /mIrEYTcedxj4?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-43
+  server: 162.159.243.198
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /Jiww8QGGD9if?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-44
+  server: 190.93.247.53
+  port: 2087
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /h1QyKSo7NSh5?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-45
+  server: 104.16.0.250
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /REKzdukaNIwV?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-46
+  server: 104.16.140.180
+  port: 2096
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /aIexhxeNrmTD?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-47
+  server: 190.93.247.254
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /Wy3CGrvSQGUt?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-48
+  server: 188.114.97.151
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /HIqm3vSRvfcR?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-49
+  server: 104.17.121.176
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /XP8sNfnzsSa4?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-50
+  server: 104.16.147.108
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /mvkqjCcT3GWH?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-51
+  server: 188.114.99.209
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /KfezZqRDVhSX?ed=2048
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-52
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /6QujP4FoRpZG?ed=2048&nat64=on
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-53
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 2095
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: false
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /aaLeClkxlyrL?ed=2048&proxyip=92.5.85.78:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-54
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /ygQtvYBG1w35?ed=2048&proxyip=31.58.138.2:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-55
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 2053
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /mxsjPS8eP4ir?ed=2048&proxyip=31.77.126.2:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-56
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /UlHiNU1wbAcH?ed=2048&proxyip=144.31.72.69:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-57
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 2052
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: false
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /oNlXugxU2Vta?ed=2048&proxyip=3.29.240.49:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-58
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 8443
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /m5mUJozVj61w?ed=2048&proxyip=130.94.1.150:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-59
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 8080
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: false
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /yhDj1UAENVto?ed=2048&proxyip=31.76.96.60:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-60
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 2082
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: false
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /lM6RFd42aqpv?ed=2048&proxyip=5.75.182.89:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-61
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 8080
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: false
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /na0ce6hAjgvW?ed=2048&proxyip=8.209.83.19:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
+  name: zr-wasm-mahdijavid37-59e37370-62
+  server: zr-wasm.mahdijavid3700.workers.dev
+  port: 2087
+  uuid: 387c65fa-6a63-4c30-84e5-46d2de7c39d9
+  network: ws
+  tls: true
+  servername: zr-wasm.mahdijavid3700.workers.dev
+  ws-opts:
+    path: /UvpEola74sc6?ed=2048&proxyip=161.97.66.16:443
+    headers:
+      Host: zr-wasm.mahdijavid3700.workers.dev
+- type: vless
   name: zizijavid-mahdijavid-68e85e74
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2053
+  port: 2087
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /Ni5tdLAiZqFe?ed=2048
+    path: /c2FHZS4tSDhF?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-2
   server: creativecommons.org
-  port: 443
+  port: 2083
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /PklExcZfOOf6?ed=2048
+    path: /ZIqkwceihJtW?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-3
   server: sky.rethinkdns.com
-  port: 2087
+  port: 2053
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /WZqCeEkwuiLI?ed=2048
+    path: /TGiqbQ1mnF5i?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-4
   server: www.speedtest.net
-  port: 8443
+  port: 2087
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /bV2fyRQWYzuC?ed=2048
+    path: /ljZu40TYiYWG?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-5
   server: singapore.com
-  port: 2083
+  port: 2053
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /uB9GGkwubUEZ?ed=2048
+    path: /EFF9J860GXvX?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-6
   server: go.inmobi.com
-  port: 2083
+  port: 8443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /otcCWmttNC5b?ed=2048
+    path: /E4iz383hzYHA?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-7
   server: www.visa.com
-  port: 2083
+  port: 2096
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /oQeFBRZglgra?ed=2048
+    path: /qixcNt0T7HFy?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-8
   server: www.wto.org
-  port: 2087
+  port: 443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /mz2H0icp7doE?ed=2048
+    path: /eMk0I8IXDPF4?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-9
   server: chatgpt.com
-  port: 2053
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /K38QXgEiDSKd?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-10
-  server: medium.com
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /4cIfuFGwGYVl?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-11
-  server: lb.nscl.ir
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /DfLUR4VOouuc?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-12
-  server: nodejs.org
-  port: 2087
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /W9LictGqIRLU?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-13
-  server: linkerd.io
-  port: 443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /5RJKoRGwf4Ld?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-14
-  server: harbor.io
-  port: 2053
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /bMwecuhnxnH5?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-15
-  server: npmjs.com
-  port: 443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /x93u1sFDCZr5?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-16
-  server: csgo.com
-  port: 2096
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /zq0QnLoZZC1b?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-17
-  server: fbi.gov
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /LvCKAF5SMvcK?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-18
-  server: ip.sb
-  port: 2096
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /GrYPO6Ua4aCg?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-19
-  server: time.is
-  port: 443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /ye9hBDrDXBZg?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-20
-  server: icook.hk
-  port: 443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /xsG01UicQEby?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-21
-  server: codepen.io
   port: 2083
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /Sdyz9Q7yFj29?ed=2048
+    path: /UIFTqwAaGKvm?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
-  name: zizijavid-mahdijavid-68e85e74-22
-  server: unpkg.com
-  port: 8443
+  name: zizijavid-mahdijavid-68e85e74-10
+  server: medium.com
+  port: 2096
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /hDly9oLcIgxH?ed=2048
+    path: /LxJjpoItHinU?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-11
+  server: lb.nscl.ir
+  port: 2096
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /N2A9Dpdek1DZ?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-12
+  server: nodejs.org
+  port: 2083
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /zWOIxasb7Mme?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-13
+  server: linkerd.io
+  port: 2083
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /4wFoCKD85aYL?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-14
+  server: harbor.io
+  port: 2087
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /nWtaTs5CikGA?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-15
+  server: npmjs.com
+  port: 2087
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /YAXYBN8oX5cr?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-16
+  server: csgo.com
+  port: 2053
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /vPQjIz8sYM7v?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-17
+  server: fbi.gov
+  port: 2083
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /Kd2WJq6VHvG2?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-18
+  server: ip.sb
+  port: 2053
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /RDUW0sTtfxgV?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-19
+  server: time.is
+  port: 2087
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /DQvlHwNNKMsX?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-20
+  server: icook.hk
+  port: 2087
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /E2TEkRW53joz?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-21
+  server: codepen.io
+  port: 2087
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /l8JomtYS5VoX?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-22
+  server: unpkg.com
+  port: 2096
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /Pp3YfeX8tbRG?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -289,19 +1033,19 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /ipulPCY7rGPU?ed=2048
+    path: /J9TidokefEac?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-24
   server: www.cdnjs.com
-  port: 2083
+  port: 8443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /sIIbh9Iy2EPf?ed=2048
+    path: /GNyAkU8bTSm3?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -313,19 +1057,19 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /goQlfVrwq7XF?ed=2048
+    path: /QrcicQfjTxVS?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-26
   server: www.udacity.com
-  port: 443
+  port: 2083
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /7IhL7zmImOqf?ed=2048
+    path: /mmE4ttzgx2o3?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -337,7 +1081,7 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /Y32lZ3D3oTvr?ed=2048
+    path: /GgTzs5kvtdWV?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -349,103 +1093,103 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /adns8PSqQ3kK?ed=2048
+    path: /CyAXJfPmDVq4?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-29
   server: www.glassdoor.com
-  port: 2053
+  port: 443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /T4LwN7GWvZ0d?ed=2048
+    path: /rYwTifYbBuNj?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-30
   server: www.ipchicken.com
-  port: 2087
+  port: 8443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /P4vLDQKC6r56?ed=2048
+    path: /3tOPp9Bceu3b?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-31
   server: static.cloudflareinsights.com
-  port: 2053
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /PPwWKnBCmj6C?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-32
-  server: 104.16.0.170
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /u0RC1tuxLN2A?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-33
-  server: 162.159.193.205
-  port: 2083
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /nu0iWET5bLRM?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-34
-  server: 104.17.148.36
-  port: 2083
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /ye4eyOuETgWE?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-35
-  server: 104.18.79.91
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /kDNow1WETVRt?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-36
-  server: 162.159.243.33
   port: 2096
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /cgrleEubxtox?ed=2048
+    path: /VwH5BolFuStA?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-32
+  server: 104.16.0.170
+  port: 2053
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /QhGpeT9DuqmP?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-33
+  server: 162.159.193.205
+  port: 2087
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /AGURcaCVGklz?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-34
+  server: 104.17.148.36
+  port: 2053
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /VoN5es1hdeuD?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-35
+  server: 104.18.79.91
+  port: 2083
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /PkhmrC62YOPv?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-36
+  server: 162.159.243.33
+  port: 2053
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /c6cr80laNpon?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -457,55 +1201,55 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /645ahwlOwQmO?ed=2048
+    path: /LaxG4792kJAE?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-38
   server: 172.66.147.179
-  port: 8443
+  port: 2087
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /RmKMnl1fkv8N?ed=2048
+    path: /nNHkKDEVDEJD?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-39
   server: 188.114.97.175
-  port: 2083
+  port: 2096
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /kWyDDaJpR2sR?ed=2048
+    path: /gPXLMaDxZ8km?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-40
   server: 172.67.158.230
-  port: 2083
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /R7gxxV3cmZyw?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-41
-  server: 104.16.140.74
   port: 8443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /a1Y3AkgFxAaj?ed=2048
+    path: /BtMVjG5Fd9ww?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-41
+  server: 104.16.140.74
+  port: 2083
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /dzxThUiv4DTq?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -517,115 +1261,115 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /62weI59ITZ6h?ed=2048
+    path: /ERiSYwgO9haH?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-43
   server: 162.159.243.198
+  port: 443
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /aW6ISvdtkFsU?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-44
+  server: 190.93.247.53
+  port: 2083
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /eFvDYmVHCWbW?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-45
+  server: 104.16.0.250
+  port: 2096
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /d3Z3wIMoNQ2g?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-46
+  server: 104.16.140.180
+  port: 2096
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /A08F3dV3ObDa?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-47
+  server: 190.93.247.254
+  port: 443
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /6WR67NYzbq5L?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-48
+  server: 188.114.97.151
+  port: 2096
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: true
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /cofdyL1bSvR5?ed=2048
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-49
+  server: 104.17.121.176
   port: 2053
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /WhW5emGOalTm?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-44
-  server: 190.93.247.53
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /x6hTumsbsAa8?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-45
-  server: 104.16.0.250
-  port: 2083
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /mfGlcw8iKWvV?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-46
-  server: 104.16.140.180
-  port: 443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /U98puGrUYSbN?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-47
-  server: 190.93.247.254
-  port: 2083
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /XF0R3YUeyyRD?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-48
-  server: 188.114.97.151
-  port: 443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /nOZO7NWX0wWH?ed=2048
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-49
-  server: 104.17.121.176
-  port: 8443
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /ZZrmVkitANr3?ed=2048
+    path: /SeXZKLzITae6?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-50
   server: 104.16.147.108
-  port: 8443
+  port: 2053
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /vurG4CZG2ywH?ed=2048
+    path: /lfJBIQZDAOAS?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-51
   server: 188.114.99.209
-  port: 8443
+  port: 2053
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /zrMhnd6RuaPG?ed=2048
+    path: /ic0Aags7hr93?ed=2048
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -637,35 +1381,23 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /XvDLSq7BKlqu?ed=2048&nat64=on
+    path: /HUT4LUcRDVZP?ed=2048&nat64=on
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-53
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2083
+  port: 2082
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: true
+  tls: false
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /If6SuNpoV4LD?ed=2048&proxyip=92.5.85.78:443
+    path: /64xlQCqL1ydh?ed=2048&proxyip=92.5.85.78:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-54
-  server: zizijavid.mahdijavid370.workers.dev
-  port: 2053
-  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
-  network: ws
-  tls: true
-  servername: zizijavid.mahdijavid370.workers.dev
-  ws-opts:
-    path: /E9GeoDlwuSzy?ed=2048&proxyip=31.58.138.2:443
-    headers:
-      Host: zizijavid.mahdijavid370.workers.dev
-- type: vless
-  name: zizijavid-mahdijavid-68e85e74-55
   server: zizijavid.mahdijavid370.workers.dev
   port: 443
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
@@ -673,7 +1405,19 @@ proxies:
   tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /BFJDKUdxSkME?ed=2048&proxyip=31.77.126.2:443
+    path: /uOo35Y24p6v6?ed=2048&proxyip=31.58.138.2:443
+    headers:
+      Host: zizijavid.mahdijavid370.workers.dev
+- type: vless
+  name: zizijavid-mahdijavid-68e85e74-55
+  server: zizijavid.mahdijavid370.workers.dev
+  port: 8880
+  uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
+  network: ws
+  tls: false
+  servername: zizijavid.mahdijavid370.workers.dev
+  ws-opts:
+    path: /rksqO2ADCY9t?ed=2048&proxyip=31.77.126.2:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
@@ -685,131 +1429,131 @@ proxies:
   tls: false
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /kjT46oGo0Zsh?ed=2048&proxyip=144.31.72.69:443
+    path: /Robr3vSTvOGX?ed=2048&proxyip=144.31.72.69:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-57
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2096
+  port: 2095
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: true
+  tls: false
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /DZF72kc2QWeU?ed=2048&proxyip=3.29.240.49:443
+    path: /bHOA3I1Z45CP?ed=2048&proxyip=3.29.240.49:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-58
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2083
+  port: 8080
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: true
+  tls: false
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /cXgRGUGhaD7B?ed=2048&proxyip=130.94.1.150:443
+    path: /d9di9Da06Jxf?ed=2048&proxyip=130.94.1.150:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-59
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2095
+  port: 2083
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: false
+  tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /VlgoUrAFrX6Q?ed=2048&proxyip=31.76.96.60:443
+    path: /W8gzZGf6lqm1?ed=2048&proxyip=31.76.96.60:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-60
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2053
+  port: 2095
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: true
+  tls: false
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /f3dGKeeJUBXS?ed=2048&proxyip=5.75.182.89:443
+    path: /fqj2aFzqaM8H?ed=2048&proxyip=5.75.182.89:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-61
   server: zizijavid.mahdijavid370.workers.dev
-  port: 8880
+  port: 2053
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: false
+  tls: true
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /QqlpCs8fuo6V?ed=2048&proxyip=8.209.83.19:443
+    path: /Boms5ULKGEpw?ed=2048&proxyip=8.209.83.19:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
   name: zizijavid-mahdijavid-68e85e74-62
   server: zizijavid.mahdijavid370.workers.dev
-  port: 2053
+  port: 2095
   uuid: a35c68cb-efae-45b9-8b90-8243eac4bf32
   network: ws
-  tls: true
+  tls: false
   servername: zizijavid.mahdijavid370.workers.dev
   ws-opts:
-    path: /X3o5W1JpgynL?ed=2048&proxyip=161.97.66.16:443
+    path: /JCBPkOFbsm79?ed=2048&proxyip=161.97.66.16:443
     headers:
       Host: zizijavid.mahdijavid370.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-DanNw
+  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-LCmTY
   server: zr-wasm.mah123-efc.workers.dev
-  port: 2096
+  port: 2087
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /DanNwNzgkYyE?ed=2048
+    path: /LCmTYh3dXgXH?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-QUuV2
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-4mFTb
   server: zr-wasm.mah123-efc.workers.dev
-  port: 2086
+  port: 2082
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /QUuV2RyXdpOk?ed=2560
+    path: /4mFTbC1cqwkL?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-yU3EC
+  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-RkdB6
   server: creativecommons.org
-  port: 443
+  port: 2087
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /yU3ECqVZXpnv?ed=2048
+    path: /RkdB64CK3QMZ?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-5Iifs
+  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-FKt7c
   server: creativecommons.org
-  port: 8880
+  port: 80
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /5Iifs9FJhkbN?ed=2560
+    path: /FKt7cMpmzGK1?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-UbFVL
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-Wu8n9
   server: www.speedtest.net
   port: 2083
   uuid: d95060e5-39df-4105-8266-a3119f877588
@@ -817,23 +1561,23 @@ proxies:
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /UbFVLnf9b1gz?ed=2048
+    path: /Wu8n98UWmrxi?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-37riG
+  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-53kjk
   server: www.speedtest.net
-  port: 2095
+  port: 2052
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /37riGUUc6eVP?ed=2560
+    path: /53kjk7Qf3p8s?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-A5zz0
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-APnwC
   server: sky.rethinkdns.com
   port: 2053
   uuid: d95060e5-39df-4105-8266-a3119f877588
@@ -841,35 +1585,35 @@ proxies:
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /A5zz051k6Vzm?ed=2048
+    path: /APnwCvLJbVb7?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-b3IIA
+  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-UvNUn
   server: sky.rethinkdns.com
-  port: 2082
+  port: 80
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /b3IIAxr87snX?ed=2560
+    path: /UvNUnHAnP9Dh?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-yqkkl
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-yiOkY
   server: chat.openai.com
-  port: 2083
+  port: 443
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /yqkklaiaN1cD?ed=2048
+    path: /yiOkYGVxW6ph?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-BoXQi
+  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-4Iw2S
   server: chat.openai.com
   port: 2095
   uuid: d95060e5-39df-4105-8266-a3119f877588
@@ -877,823 +1621,823 @@ proxies:
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /BoXQiA1WvX8k?ed=2560
+    path: /4Iw2SvCj0Y5u?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-RBLsk
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-tFay6
   server: cfip.xxxxxxxx.tk
-  port: 443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /RBLskt38QXSA?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-gzE24
-  server: cfip.xxxxxxxx.tk
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /gzE24Pkq07By?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-PueiG
-  server: go.inmobi.com
-  port: 2053
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /PueiGPtom4uG?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-xlwwp
-  server: go.inmobi.com
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /xlwwpDjeWNK5?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-jj1jI
-  server: singapore.com
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /jj1jIt8AUOGq?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-BHeNp
-  server: singapore.com
-  port: 2052
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /BHeNpANXv5Tp?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-Z27cN
-  server: www.visa.com
-  port: 2096
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /Z27cNhXHRcNT?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-jst5t
-  server: www.visa.com
-  port: 8880
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /jst5tsfHafQW?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-PZbxC
-  server: www.wto.org
   port: 2083
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /PZbxCXm96EI9?ed=2048
+    path: /tFay6A4tESOQ?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-VjyAz
-  server: www.wto.org
-  port: 80
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-ZmQUQ
+  server: cfip.xxxxxxxx.tk
+  port: 2082
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /VjyAzCsnJG2L?ed=2560
+    path: /ZmQUQNec0y2L?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-cJAdg
-  server: chatgpt.com
+  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-AIzVp
+  server: go.inmobi.com
   port: 2087
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /cJAdgu36Enom?ed=2048
+    path: /AIzVpuclhniD?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-VSRo2
-  server: chatgpt.com
+  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-lwFNE
+  server: go.inmobi.com
   port: 2052
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /VSRo2Bj8ghdZ?ed=2560
+    path: /lwFNESX7ra94?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-UBZys
-  server: medium.com
-  port: 8443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /UBZysSuhRBJg?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-WelaH
-  server: medium.com
-  port: 2052
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /WelaHd4l3BLc?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-hJ7YM
-  server: npmjs.com
-  port: 2096
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /hJ7YMCUFw9qh?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-PFhtB
-  server: npmjs.com
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /PFhtBA9o5O4n?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-W0yGz
-  server: nodejs.org
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /W0yGzqs7FWb9?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-lky9X
-  server: nodejs.org
-  port: 8880
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /lky9X8JAdHLA?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-j1wxV
-  server: csgo.com
-  port: 443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /j1wxVViZJveu?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-0GUzH
-  server: csgo.com
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /0GUzHENN9caT?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-k186e
-  server: harbor.io
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /k186erE7ytw2?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-IIhoW
-  server: harbor.io
-  port: 2095
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /IIhoWJXAsM9g?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-267j3
-  server: linkerd.io
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /267j3oMpQpbU?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-mFqrI
-  server: linkerd.io
-  port: 2086
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /mFqrIo3Hs4o7?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-THv6t
-  server: fbi.gov
-  port: 2096
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /THv6tMm4CIuA?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-GO2dX
-  server: fbi.gov
-  port: 80
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /GO2dXFnfoZ7v?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-3mcxs
-  server: zula.ir
-  port: 443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /3mcxsOi7mJti?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-7qLvT
-  server: zula.ir
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /7qLvTsfPDm2A?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-AnSdV
-  server: 162.159.243.116
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /AnSdVMhCWZrD?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-e6iHI
-  server: 162.159.243.116
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /e6iHI0oviEnA?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-CEOZF
-  server: 104.20.29.93
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /CEOZFcEz865c?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-R41Q2
-  server: 104.20.29.93
-  port: 80
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /R41Q2QiwrydP?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-tx5Qf
-  server: 188.114.96.151
-  port: 2053
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /tx5QfChdHW8J?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-WUkvb
-  server: 188.114.96.151
-  port: 8880
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /WUkvbX6lFjRh?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-f8Rk7
-  server: 104.17.222.216
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /f8Rk7i6OqmJu?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-1w6Gs
-  server: 104.17.222.216
-  port: 2095
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /1w6Gss2mOgJe?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-8WVPu
-  server: 188.114.96.33
-  port: 2053
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /8WVPuoDShudN?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-6fSP8
-  server: 188.114.96.33
-  port: 2095
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /6fSP8T4exivl?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-rlNz3
-  server: 141.101.115.59
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /rlNz3XEaq3ad?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-fLkZe
-  server: 141.101.115.59
-  port: 2095
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /fLkZeg4puTvB?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-VGBI5
-  server: 172.67.69.219
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /VGBI5mjjO69O?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-wmcoF
-  server: 172.67.69.219
-  port: 8880
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /wmcoFrm4mEPv?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-Odgfk
-  server: 104.19.220.33
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /OdgfkzumpJLn?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-D4sao
-  server: 104.19.220.33
-  port: 2086
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /D4sao4gQi44l?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-URDKo
-  server: 104.16.147.161
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /URDKoITIEUoS?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-1uCfN
-  server: 104.16.147.161
-  port: 80
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /1uCfNH8YQRdC?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-VqltR
-  server: 104.26.4.184
-  port: 443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /VqltRkPwjzMI?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-5QuxL
-  server: 104.26.4.184
-  port: 2082
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /5QuxLZaHn3vt?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-tSApl
-  server: 8.6.112.37
-  port: 443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /tSAplEdw9AnR?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-twO0e
-  server: 8.6.112.37
-  port: 2086
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /twO0eSPxAlPX?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-C2zGd
-  server: 172.67.69.230
-  port: 8443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /C2zGd4dnPFAw?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-2BV6z
-  server: 172.67.69.230
-  port: 2052
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /2BV6zNxlqMtm?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-kCUR0
-  server: 104.16.148.60
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-JAS8Q
+  server: singapore.com
   port: 2083
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /kCUR0ebbkVmB?ed=2048
+    path: /JAS8QHxCix6l?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-RPjr1
-  server: 104.16.148.60
+  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-6MG02
+  server: singapore.com
+  port: 2086
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /6MG021R7USx1?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-SAxLg
+  server: www.visa.com
+  port: 2083
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /SAxLgqhqX97k?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-4EJ4u
+  server: www.visa.com
   port: 8080
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /RPjr1a83gYjZ?ed=2560
+    path: /4EJ4uvqg7Pcy?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-4nDH6
-  server: 141.101.115.108
-  port: 443
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /4nDH6ki3lEF4?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-UyNRn
-  server: 141.101.115.108
-  port: 2052
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /UyNRnWcyy0F6?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-TqdAB
-  server: 188.114.97.94
-  port: 2096
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /TqdABkRxnjyM?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-d6QuK
-  server: 188.114.97.94
-  port: 2052
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /d6QuKDFbYiug?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-Ez2Qf
-  server: 104.16.92.127
-  port: 2087
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: true
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /Ez2QfTyNasvn?ed=2048
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-41738
-  server: 104.16.92.127
-  port: 80
-  uuid: d95060e5-39df-4105-8266-a3119f877588
-  network: ws
-  tls: false
-  servername: zr-wasm.mah123-efc.workers.dev
-  ws-opts:
-    path: /41738GsQFc0S?ed=2560
-    headers:
-      Host: zr-wasm.mah123-efc.workers.dev
-- type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-17xCQ
-  server: 172.67.69.80
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-ugqIc
+  server: www.wto.org
   port: 2083
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /17xCQPJEb18X?ed=2048
+    path: /ugqIc8JIlzSi?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-S7uT7
-  server: 172.67.69.80
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-D54ua
+  server: www.wto.org
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /D54uaybpjZCt?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-mUKzR
+  server: chatgpt.com
+  port: 2083
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /mUKzR8Hm3H3D?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-bDSou
+  server: chatgpt.com
+  port: 8080
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /bDSouN9VjSda?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-Q10Tr
+  server: medium.com
+  port: 2083
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /Q10Tra2dVZ1e?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-8DPiH
+  server: medium.com
   port: 8880
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /S7uT7MRoCrNF?ed=2560
+    path: /8DPiHmGjb698?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-a8W5N
-  server: 104.19.220.201
-  port: 443
+  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-5GcJc
+  server: npmjs.com
+  port: 2096
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /a8W5NPmQnLrD?ed=2048
+    path: /5GcJcStQCItA?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-8yvwE
-  server: 104.19.220.201
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-Arbpi
+  server: npmjs.com
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /ArbpivielriD?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-frg4Z
+  server: nodejs.org
+  port: 2096
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /frg4ZPtlIXbl?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-419hi
+  server: nodejs.org
+  port: 2086
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /419hiqwNhpEx?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-laHyW
+  server: csgo.com
+  port: 2087
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /laHyWQP3Damk?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-aDZdX
+  server: csgo.com
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /aDZdXEvcfQ5B?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-o74VZ
+  server: harbor.io
+  port: 2083
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /o74VZxs3iY6Q?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-b6FvK
+  server: harbor.io
   port: 80
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /8yvwEkCd8YZj?ed=2560
+    path: /b6FvKCE2uEyf?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-w0lai
-  server: 104.20.6.3
-  port: 443
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-Tjxy3
+  server: linkerd.io
+  port: 2053
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /w0laiGtAA25W?ed=2048
+    path: /Tjxy3baMJmSX?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-VinBO
-  server: 104.20.6.3
+  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-uTa9a
+  server: linkerd.io
+  port: 2095
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /uTa9aSqvVsnI?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-FAHNo
+  server: fbi.gov
+  port: 2096
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /FAHNobxESgso?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-J1Vz9
+  server: fbi.gov
   port: 2086
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /VinBOvTNI50D?ed=2560
+    path: /J1Vz9BCpq9Z0?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-1yz6M
-  server: 162.159.243.219
-  port: 443
+  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-e96xh
+  server: zula.ir
+  port: 2096
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: true
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /1yz6MoUV0rdR?ed=2048
+    path: /e96xhzRZzBdJ?ed=2048
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
-  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-s6Hjx
-  server: 162.159.243.219
+  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-lHMhT
+  server: zula.ir
+  port: 2095
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /lHMhTeKGqdMD?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-kLrJT
+  server: 162.159.195.143
+  port: 8443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /kLrJTDl7roTJ?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-AYBPi
+  server: 162.159.195.143
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /AYBPiXEiUOYa?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-i24Sm
+  server: 162.159.46.232
+  port: 2053
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /i24SmVMFZdWh?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-LTZqb
+  server: 162.159.46.232
+  port: 8880
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /LTZqbAnkidi4?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-lyrcQ
+  server: 162.159.46.131
+  port: 2053
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /lyrcQxxHkg4S?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-6uHXL
+  server: 162.159.46.131
+  port: 8080
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /6uHXLTEaglSo?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-gWJkZ
+  server: 162.159.195.245
+  port: 2087
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /gWJkZaR9FP8P?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-Dzy2G
+  server: 162.159.195.245
+  port: 80
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /Dzy2G4Oobp07?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-yuU1G
+  server: 8.6.112.232
+  port: 2053
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /yuU1GwbP6Jrd?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-xGVZJ
+  server: 8.6.112.232
+  port: 2095
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /xGVZJFG8smjp?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-Wh0zr
+  server: 8.6.112.14
+  port: 2053
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /Wh0zrhUmcqqI?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-F25eZ
+  server: 8.6.112.14
   port: 2086
   uuid: d95060e5-39df-4105-8266-a3119f877588
   network: ws
   tls: false
   servername: zr-wasm.mah123-efc.workers.dev
   ws-opts:
-    path: /s6Hjxu6BaPBO?ed=2560
+    path: /F25eZU2KUor2?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-Brg57
+  server: 8.6.112.206
+  port: 443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /Brg57phPPjcl?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-qJNWo
+  server: 8.6.112.206
+  port: 2086
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /qJNWoGQfx3Ga?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-JbUEw
+  server: 172.64.146.139
+  port: 2087
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /JbUEwPf2F4Tx?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-63BUA
+  server: 172.64.146.139
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /63BUAkXJvW9v?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-HhlDn
+  server: 8.6.112.20
+  port: 2096
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /HhlDnbj1ImAm?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-iNwvx
+  server: 8.6.112.20
+  port: 2052
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /iNwvx256HTen?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-7whJQ
+  server: 172.64.146.150
+  port: 8443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /7whJQPp7CZHU?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-Kckj1
+  server: 172.64.146.150
+  port: 8880
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /Kckj1r6TOf30?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-0XbAS
+  server: 172.64.146.244
+  port: 443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /0XbASxdE65JZ?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-GnFKS
+  server: 172.64.146.244
+  port: 80
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /GnFKS2qxnDuk?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-kdUHB
+  server: 162.159.46.67
+  port: 2053
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /kdUHB0QjaPUg?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-W3J00
+  server: 162.159.46.67
+  port: 2095
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /W3J00UczgmnR?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-undEX
+  server: 172.64.146.234
+  port: 443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /undEXykyMSiR?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-80-6ee6246d-5mkNI
+  server: 172.64.146.234
+  port: 80
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /5mkNIy4BS1Q4?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-m0gMe
+  server: 172.64.146.72
+  port: 443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /m0gMeOrbrLJj?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-kMDYS
+  server: 172.64.146.72
+  port: 8080
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /kMDYSsOkIKxF?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-JkE9Q
+  server: 162.159.46.56
+  port: 2053
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /JkE9Qcj5EX2r?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-HPAIY
+  server: 162.159.46.56
+  port: 8880
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /HPAIYgXpdSnf?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-A1SDq
+  server: 162.159.46.222
+  port: 2083
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /A1SDqvVV9VH5?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-a0wUj
+  server: 162.159.46.222
+  port: 2052
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /a0wUjs8ncM3I?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-MrqLg
+  server: 162.159.195.95
+  port: 443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /MrqLgoYUEgzg?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-Er0rW
+  server: 162.159.195.95
+  port: 2052
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /Er0rWoz0KpaX?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-443-6ee6246d-CYsbF
+  server: 162.159.193.173
+  port: 443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /CYsbFCJvmF1r?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-6yr8r
+  server: 162.159.193.173
+  port: 8080
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /6yr8rTk2YgAY?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-7sOrU
+  server: 172.64.146.245
+  port: 8443
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /7sOrUgffzfIv?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-BBOYf
+  server: 172.64.146.245
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /BBOYfmzmyYj9?ed=2560
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-DWGeR
+  server: 8.6.112.193
+  port: 2096
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: true
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /DWGeRVqPIs5Z?ed=2048
+    headers:
+      Host: zr-wasm.mah123-efc.workers.dev
+- type: vless
+  name: zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-rSBUp
+  server: 8.6.112.193
+  port: 2082
+  uuid: d95060e5-39df-4105-8266-a3119f877588
+  network: ws
+  tls: false
+  servername: zr-wasm.mah123-efc.workers.dev
+  ws-opts:
+    path: /rSBUp5CqVEH0?ed=2560
     headers:
       Host: zr-wasm.mah123-efc.workers.dev
 - type: vless
@@ -1855,97 +2599,97 @@ proxies:
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7
   server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2087
+  port: 2096
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /B4oBmHZauJPb?ed=2048
+    path: /ZJFY3NYfksPO?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-2
   server: creativecommons.org
-  port: 2087
+  port: 2096
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /mtRdo7DySrU4?ed=2048
+    path: /3HTrY63a90w0?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-3
   server: sky.rethinkdns.com
-  port: 443
+  port: 8443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /1b6f8htuWD0w?ed=2048
+    path: /mFVv4ZDfSbP4?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-4
   server: www.speedtest.net
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /4bQkt0qjbDvi?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-5
-  server: singapore.com
   port: 2053
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /WCAy2cghGUo4?ed=2048
+    path: /MQH7R5eCS5MD?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
-  name: zizijavid1-mahdijavi-037d44c7-6
-  server: go.inmobi.com
+  name: zizijavid1-mahdijavi-037d44c7-5
+  server: singapore.com
   port: 443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /25jczsaerLJ0?ed=2048
+    path: /vy7WQ9VduCjV?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-6
+  server: go.inmobi.com
+  port: 2096
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /rCbsM8pXzx9u?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-7
   server: www.visa.com
-  port: 2053
+  port: 443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /lZefx4A4ROR5?ed=2048
+    path: /fXmmRGM5Ok4Q?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-8
   server: www.wto.org
-  port: 2087
+  port: 8443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /2XiNMW8H0Ast?ed=2048
+    path: /ZOILJZ1D91jl?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -1957,7 +2701,7 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /8QoUW8l8prtj?ed=2048
+    path: /7DTSmBxXRPr3?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -1969,7 +2713,7 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /hZn35OVQYbkM?ed=2048
+    path: /Frxos9k94hpQ?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -1981,103 +2725,103 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /rBhLV9IiCiW9?ed=2048
+    path: /AMIxcZZfmzTt?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-12
   server: nodejs.org
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /F5PbPizAJjef?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-13
-  server: linkerd.io
-  port: 2096
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /YMIgAYfGIuH8?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-14
-  server: harbor.io
-  port: 2096
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /C3n7TWSfIupw?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-15
-  server: npmjs.com
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /53WuNXOetXUJ?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-16
-  server: csgo.com
   port: 2083
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /bl4YMvXdDbmj?ed=2048
+    path: /YIKB8plFZoxs?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
-  name: zizijavid1-mahdijavi-037d44c7-17
-  server: fbi.gov
+  name: zizijavid1-mahdijavi-037d44c7-13
+  server: linkerd.io
   port: 443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /HJzVdPPCevI6?ed=2048
+    path: /3BYxs7O6KnPu?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-14
+  server: harbor.io
+  port: 8443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /16FEuddftTSO?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-15
+  server: npmjs.com
+  port: 8443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /ghQ6P9MyHaX8?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-16
+  server: csgo.com
+  port: 443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /a08OKH0IZLaY?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-17
+  server: fbi.gov
+  port: 2087
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /yCkdpNNPziFD?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-18
   server: ip.sb
+  port: 2087
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /3uSHaVLJ142a?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-19
+  server: time.is
   port: 2096
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /SJ2IiJ7zqGiP?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-19
-  server: time.is
-  port: 443
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /GLS0JIqtZzdc?ed=2048
+    path: /RyeGY5sHTRiV?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2089,19 +2833,19 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /h1vrauWU2Llw?ed=2048
+    path: /T9bo5sMXYGqA?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-21
   server: codepen.io
-  port: 8443
+  port: 2096
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /frQ90mUJavGO?ed=2048
+    path: /5rlBKIoTXcHC?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2113,7 +2857,7 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /mn7A7IfbU31d?ed=2048
+    path: /6bTw5nKvjMdz?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2125,7 +2869,7 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /dLOqAKaUtlHs?ed=2048
+    path: /xH3demoIVaPl?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2137,7 +2881,7 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /KeGODHC4g1xT?ed=2048
+    path: /qapehcKX5EWa?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2149,91 +2893,91 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /eyFpWaHtAcSJ?ed=2048
+    path: /2Oj0lKHztYjt?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-26
   server: www.udacity.com
-  port: 2087
+  port: 8443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /HRH5rZ3qmWje?ed=2048
+    path: /h4Y13ZxYGjhc?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-27
   server: www.gitbook.com
-  port: 443
+  port: 8443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /PIodrkuK7FAz?ed=2048
+    path: /7i6cCCnAYS8J?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-28
   server: www.ipaddress.my
-  port: 2087
+  port: 2053
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /MTIiiXsRSMCl?ed=2048
+    path: /N6NMfLqQKw7p?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-29
   server: www.glassdoor.com
-  port: 2053
+  port: 2083
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /cK4wjnvif31S?ed=2048
+    path: /wTdpZkCIKAFl?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-30
   server: www.ipchicken.com
-  port: 2053
+  port: 8443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /d9NVlI1p4pNj?ed=2048
+    path: /XRTTPbKsDtIx?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-31
   server: static.cloudflareinsights.com
-  port: 443
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /vrLslpQBCP4J?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-32
-  server: 104.16.0.170
   port: 2087
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /mJZpTUTheIhe?ed=2048
+    path: /uWdfxTrPVlDy?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-32
+  server: 104.16.0.170
+  port: 2096
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /bIvcZ6ltCkKE?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2245,31 +2989,31 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /pemq8ugmXUOx?ed=2048
+    path: /jdJG84HZkMaS?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-34
   server: 104.17.148.36
-  port: 2096
+  port: 2053
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /MYwxhPeW1Rr7?ed=2048
+    path: /tBpOsHySbdyb?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-35
   server: 104.18.79.91
-  port: 2087
+  port: 2083
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /gfjNPRHoWLTc?ed=2048
+    path: /y9dAy19wCmJZ?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2281,55 +3025,55 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /duoC5T3blxmo?ed=2048
+    path: /fhYQsnmjrqbs?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-37
   server: 162.159.195.205
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /MHDQw5uLIvVN?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-38
-  server: 172.66.147.179
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /BPUyNZ7yigTV?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-39
-  server: 188.114.97.175
-  port: 2083
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /EIHuSa4m94yx?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-40
-  server: 172.67.158.230
   port: 2053
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /8o6f3qXqr4Mp?ed=2048
+    path: /yrafuneYDEGi?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-38
+  server: 172.66.147.179
+  port: 8443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /v11f5Zl8Snw9?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-39
+  server: 188.114.97.175
+  port: 443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /uIhThxBOEynr?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-40
+  server: 172.67.158.230
+  port: 2096
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /Vlrk0PRcAOfq?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2341,7 +3085,7 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /s009Toyl86Jl?ed=2048
+    path: /eZ8AGUuaE7IV?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2353,19 +3097,19 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /L3JtyliOMvpo?ed=2048
+    path: /OsrcaXlEFXaB?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-43
   server: 162.159.243.198
-  port: 443
+  port: 2087
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /ZoSQf4Vy2yM9?ed=2048
+    path: /Rpl0bOeiAyA3?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2377,91 +3121,91 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /ngnBUCuDYDDS?ed=2048
+    path: /qNvsqNdqqxRU?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-45
   server: 104.16.0.250
-  port: 8443
+  port: 443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /llgXgs2RnGTq?ed=2048
+    path: /H1RFqLeuezvP?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-46
   server: 104.16.140.180
-  port: 2096
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /REtPOjFWlsRp?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-47
-  server: 190.93.247.254
-  port: 8443
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /3Fvjf7HpbKtw?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-48
-  server: 188.114.97.151
-  port: 2083
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /OWaDUWvJo1rF?ed=2048
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-49
-  server: 104.17.121.176
   port: 2087
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /D2I69dqpFyfm?ed=2048
+    path: /Xn2EHwgBZz5T?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-47
+  server: 190.93.247.254
+  port: 2096
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /yV5X1uoCCGGi?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-48
+  server: 188.114.97.151
+  port: 2087
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /ZggtkAHuKUOq?ed=2048
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-49
+  server: 104.17.121.176
+  port: 2096
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /OqsyFO1PRuRF?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-50
   server: 104.16.147.108
-  port: 2053
+  port: 8443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /mpN4jiUWR05y?ed=2048
+    path: /q0iFY5MQAuLd?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-51
   server: 188.114.99.209
-  port: 2053
+  port: 2096
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /MYYLejGnVNVJ?ed=2048
+    path: /QjldTHS2cBGK?ed=2048
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2473,71 +3217,11 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /rGO94HmKNF8H?ed=2048&nat64=on
+    path: /RpKcUkTOKiF0?ed=2048&nat64=on
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizijavid1-mahdijavi-037d44c7-53
-  server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2086
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: false
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /nBcboHI9BfEn?ed=2048&proxyip=92.5.85.78:443
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-54
-  server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2095
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: false
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /vY90indFVDWB?ed=2048&proxyip=31.58.138.2:443
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-55
-  server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /gEdEtLdLICtV?ed=2048&proxyip=31.77.126.2:443
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-56
-  server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2087
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /UUQG5NoMKFq2?ed=2048&proxyip=144.31.72.69:443
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-57
-  server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2053
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: true
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /x14WapeWHX7U?ed=2048&proxyip=3.29.240.49:443
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-58
   server: zizijavid1.mahdijavid3800.workers.dev
   port: 443
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
@@ -2545,35 +3229,23 @@ proxies:
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /VHwFc6x8oVeN?ed=2048&proxyip=130.94.1.150:443
+    path: /3YcyM1edGHbo?ed=2048&proxyip=92.5.85.78:443
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
-  name: zizijavid1-mahdijavi-037d44c7-59
+  name: zizijavid1-mahdijavi-037d44c7-54
   server: zizijavid1.mahdijavid3800.workers.dev
-  port: 8443
+  port: 2053
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
   network: ws
   tls: true
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /Qe7sjpkVEHzR?ed=2048&proxyip=31.76.96.60:443
+    path: /RgSnFxeedVxk?ed=2048&proxyip=31.58.138.2:443
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
-  name: zizijavid1-mahdijavi-037d44c7-60
-  server: zizijavid1.mahdijavid3800.workers.dev
-  port: 2052
-  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
-  network: ws
-  tls: false
-  servername: zizijavid1.mahdijavid3800.workers.dev
-  ws-opts:
-    path: /j3SjhExnUFPp?ed=2048&proxyip=5.75.182.89:443
-    headers:
-      Host: zizijavid1.mahdijavid3800.workers.dev
-- type: vless
-  name: zizijavid1-mahdijavi-037d44c7-61
+  name: zizijavid1-mahdijavi-037d44c7-55
   server: zizijavid1.mahdijavid3800.workers.dev
   port: 80
   uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
@@ -2581,7 +3253,79 @@ proxies:
   tls: false
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /q52L2v6bkgpH?ed=2048&proxyip=8.209.83.19:443
+    path: /1WDyk8zzMelz?ed=2048&proxyip=31.77.126.2:443
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-56
+  server: zizijavid1.mahdijavid3800.workers.dev
+  port: 2095
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: false
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /J29IzOEm149x?ed=2048&proxyip=144.31.72.69:443
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-57
+  server: zizijavid1.mahdijavid3800.workers.dev
+  port: 443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /B8Unu5CrWT7Y?ed=2048&proxyip=3.29.240.49:443
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-58
+  server: zizijavid1.mahdijavid3800.workers.dev
+  port: 8443
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /yWBbtai3uOFK?ed=2048&proxyip=130.94.1.150:443
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-59
+  server: zizijavid1.mahdijavid3800.workers.dev
+  port: 2082
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: false
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /49PCXYmmqYd6?ed=2048&proxyip=31.76.96.60:443
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-60
+  server: zizijavid1.mahdijavid3800.workers.dev
+  port: 8880
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: false
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /5rMTBoQSgrpP?ed=2048&proxyip=5.75.182.89:443
+    headers:
+      Host: zizijavid1.mahdijavid3800.workers.dev
+- type: vless
+  name: zizijavid1-mahdijavi-037d44c7-61
+  server: zizijavid1.mahdijavid3800.workers.dev
+  port: 2096
+  uuid: b302ae2e-4adf-40ae-b302-2b7bd2ea32fb
+  network: ws
+  tls: true
+  servername: zizijavid1.mahdijavid3800.workers.dev
+  ws-opts:
+    path: /HMwSVSwF7osv?ed=2048&proxyip=8.209.83.19:443
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
@@ -2593,43 +3337,43 @@ proxies:
   tls: false
   servername: zizijavid1.mahdijavid3800.workers.dev
   ws-opts:
-    path: /Tz1ktZXQh0Oy?ed=2048&proxyip=161.97.66.16:443
+    path: /HA6cANIuOSO0?ed=2048&proxyip=161.97.66.16:443
     headers:
       Host: zizijavid1.mahdijavid3800.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da
   server: zizifnjavid.foreverstar1356.workers.dev
-  port: 8443
+  port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /VoBcd5QZdDc2?ed=2048
+    path: /q4Ujox6lV2Nv?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-2
   server: creativecommons.org
+  port: 2087
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /rJlMP3dX0Czc?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-3
+  server: sky.rethinkdns.com
   port: 8443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /mXvsTZIIq63b?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-3
-  server: sky.rethinkdns.com
-  port: 2096
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /pRF053Vbws9e?ed=2048
+    path: /NwhggYCYztg9?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -2641,7 +3385,7 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /KDhO1t0pybRI?ed=2048
+    path: /Bx9n20WQJrAc?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -2653,139 +3397,139 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /fYAIVC4j0jZe?ed=2048
+    path: /No9K54qBS6ya?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-6
   server: go.inmobi.com
+  port: 2053
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /F4vOidDafzzG?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-7
+  server: www.visa.com
+  port: 443
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /RbONP2w7psPM?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-8
+  server: www.wto.org
+  port: 2053
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /HTlbB0MgmVw3?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-9
+  server: chatgpt.com
   port: 2096
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /wfDYX8mclJxE?ed=2048
+    path: /YqSYPGsN1J5C?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
-  name: zizifnjavid-forevers-401721da-7
-  server: www.visa.com
-  port: 2087
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /0CW2OfI7OfjJ?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-8
-  server: www.wto.org
+  name: zizifnjavid-forevers-401721da-10
+  server: medium.com
   port: 443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /JJAj06XMw54C?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-9
-  server: chatgpt.com
-  port: 2053
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /fdSfFxgyDcfy?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-10
-  server: medium.com
-  port: 8443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /db5GGHvl3j5t?ed=2048
+    path: /cIIcEd6mo5gK?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-11
   server: lb.nscl.ir
-  port: 8443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /S0n0j28hyTUf?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-12
-  server: nodejs.org
-  port: 2053
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /iV218B3cY6F1?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-13
-  server: linkerd.io
-  port: 2087
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /yFcI2ae9zJXH?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-14
-  server: harbor.io
   port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /Ze9m783qqCLS?ed=2048
+    path: /9C4Un0eN61Q9?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-12
+  server: nodejs.org
+  port: 2083
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /Wsc8Wn02g9nT?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-13
+  server: linkerd.io
+  port: 2083
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /H4n6nrg3Sg0t?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-14
+  server: harbor.io
+  port: 2087
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /dlZxdwXKgM2X?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-15
   server: npmjs.com
-  port: 2053
+  port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /UGqhXqqlnBu0?ed=2048
+    path: /ZYrK8s393sgD?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-16
   server: csgo.com
-  port: 443
+  port: 2096
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /9FOaXG5fsalf?ed=2048
+    path: /DGHnIRU0qojy?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -2797,79 +3541,79 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /7rSbxrDTCUu8?ed=2048
+    path: /aEvs84s4ZlZV?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-18
   server: ip.sb
-  port: 8443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /lwwRJcoWFojt?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-19
-  server: time.is
-  port: 2087
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /kCeKz669jdi6?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-20
-  server: icook.hk
-  port: 2083
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /iLJnjQeE8TKd?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-21
-  server: codepen.io
-  port: 8443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /ANUBMllhQgH8?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-22
-  server: unpkg.com
-  port: 2053
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /GY1AslhE3Wme?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-23
-  server: jsdelivr.com
   port: 443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /fAafHxIIUDb1?ed=2048
+    path: /LUxeVeht2Cfo?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-19
+  server: time.is
+  port: 2096
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /6J5Mxa8VUzq4?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-20
+  server: icook.hk
+  port: 8443
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /FTsDfIO5NePk?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-21
+  server: codepen.io
+  port: 2083
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /c0V9N7ud3u1l?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-22
+  server: unpkg.com
+  port: 8443
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /aX2p1ofEAVAv?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-23
+  server: jsdelivr.com
+  port: 2083
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /REmBc403IZbh?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -2881,43 +3625,43 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /ivMKKtxJZGS5?ed=2048
+    path: /j2gumaQHZB01?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-25
   server: auth.vercel.com
-  port: 2087
+  port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /hP8sDIbQT1vz?ed=2048
+    path: /b5KwSJQBbD4P?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-26
   server: www.udacity.com
-  port: 2087
+  port: 2096
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /s9FVfQSz60nM?ed=2048
+    path: /llQqIIFbU9Yj?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-27
   server: www.gitbook.com
-  port: 2053
+  port: 443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /CXMGRc8C1t8D?ed=2048
+    path: /YzftQx4Lf9Ae?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -2929,31 +3673,31 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /BxzyqEpqOT3u?ed=2048
+    path: /DHtrfKAgtoD4?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-29
   server: www.glassdoor.com
+  port: 2096
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /AhhdKwB7l1oa?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-30
+  server: www.ipchicken.com
   port: 2087
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /GGizF6Mmeyk8?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-30
-  server: www.ipchicken.com
-  port: 443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /DSbsD1ANQzB3?ed=2048
+    path: /M24k4Wah2kXK?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -2965,127 +3709,127 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /DvTplXMQ019e?ed=2048
+    path: /ZWM8KaY7JAGQ?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-32
   server: 104.16.0.170
-  port: 2053
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /kzT4w1oM6rzh?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-33
-  server: 162.159.193.205
   port: 8443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /Mrl5hRUuFZTv?ed=2048
+    path: /ZxeuOERCLBHO?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
-  name: zizifnjavid-forevers-401721da-34
-  server: 104.17.148.36
-  port: 2083
+  name: zizifnjavid-forevers-401721da-33
+  server: 162.159.193.205
+  port: 2087
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /02TfBTLH8Hzw?ed=2048
+    path: /xvsODSBGPFg0?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
-  name: zizifnjavid-forevers-401721da-35
-  server: 104.18.79.91
+  name: zizifnjavid-forevers-401721da-34
+  server: 104.17.148.36
   port: 2096
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /yOGlLBhFTPZE?ed=2048
+    path: /BuDvX7MRtM3i?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-35
+  server: 104.18.79.91
+  port: 2087
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /wSoGyLMHwHLa?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-36
   server: 162.159.243.33
-  port: 2087
+  port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /X5jy7bUVSiwF?ed=2048
+    path: /h52S9heB9NuF?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-37
   server: 162.159.195.205
-  port: 2087
+  port: 2096
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /ZOTJphT9aTpO?ed=2048
+    path: /TfZPadC3Xc6B?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-38
   server: 172.66.147.179
-  port: 443
+  port: 2053
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /QJOBawGsbYcp?ed=2048
+    path: /PGEEPbZA1nPA?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-39
   server: 188.114.97.175
+  port: 2096
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /6R45OEJcpiT1?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-40
+  server: 172.67.158.230
   port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /dWrK8Mo1hhGZ?ed=2048
+    path: /kBEwvjXtPodj?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
-  name: zizifnjavid-forevers-401721da-40
-  server: 172.67.158.230
+  name: zizifnjavid-forevers-401721da-41
+  server: 104.16.140.74
   port: 443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /Vx8jJqUvNKzI?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-41
-  server: 104.16.140.74
-  port: 2083
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /cQfXcOviJ0NB?ed=2048
+    path: /H6pBD8FLGixg?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -3097,55 +3841,55 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /CLqt34BAzejF?ed=2048
+    path: /YQdKJ585fmfj?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-43
   server: 162.159.243.198
-  port: 2096
+  port: 2053
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /QnUitCryTSc4?ed=2048
+    path: /TveNjPKvAe1F?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-44
   server: 190.93.247.53
+  port: 2083
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /sX9GtoyTGn9x?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-45
+  server: 104.16.0.250
+  port: 2053
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /14gqizydVXhg?ed=2048
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-46
+  server: 104.16.140.180
   port: 2087
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /ufXozO3QBrLO?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-45
-  server: 104.16.0.250
-  port: 8443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /P7quXHmNFIja?ed=2048
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-46
-  server: 104.16.140.180
-  port: 443
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /rvEX91CaNTv0?ed=2048
+    path: /tj46j3XOEVd8?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -3157,7 +3901,7 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /gE27IvzW48Tr?ed=2048
+    path: /mhdbYwj11T8b?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -3169,43 +3913,43 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /hXsKMz5HULgY?ed=2048
+    path: /Qz2WIdJjZ9xW?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-49
   server: 104.17.121.176
-  port: 443
+  port: 8443
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /XZMlVx9SeTp1?ed=2048
+    path: /oZsXIlouD0Pj?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-50
   server: 104.16.147.108
-  port: 2053
+  port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /M3Sh3K8A0HaF?ed=2048
+    path: /7pxyE6Ob6Jyo?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-51
   server: 188.114.99.209
-  port: 2087
+  port: 2083
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
   network: ws
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /q1tlP7SOMo4Q?ed=2048
+    path: /UQ0ejKmCHXSC?ed=2048
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
@@ -3217,47 +3961,11 @@ proxies:
   tls: true
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /41EY1lVU4I9C?ed=2048&nat64=on
+    path: /WxsCsGlY5Quy?ed=2048&nat64=on
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
   name: zizifnjavid-forevers-401721da-53
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 2083
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /rO6UQqN7Ncqv?ed=2048&proxyip=92.5.85.78:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-54
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 80
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: false
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /j9rbBUO8shC9?ed=2048&proxyip=31.58.138.2:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-55
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 2087
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /sOFuKOD3W8tg?ed=2048&proxyip=31.77.126.2:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-56
   server: zizifnjavid.foreverstar1356.workers.dev
   port: 8880
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
@@ -3265,59 +3973,11 @@ proxies:
   tls: false
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /ejayq8Gz5KUD?ed=2048&proxyip=144.31.72.69:443
+    path: /l9o8ZlWxr2eH?ed=2048&proxyip=92.5.85.78:443
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
-  name: zizifnjavid-forevers-401721da-57
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 2096
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: true
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /VeDCgMgvTfKI?ed=2048&proxyip=3.29.240.49:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-58
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 8080
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: false
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /xs0O82NFGZd8?ed=2048&proxyip=130.94.1.150:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-59
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 8080
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: false
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /GpxZSSHQ0p8H?ed=2048&proxyip=31.76.96.60:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-60
-  server: zizifnjavid.foreverstar1356.workers.dev
-  port: 2082
-  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
-  network: ws
-  tls: false
-  servername: zizifnjavid.foreverstar1356.workers.dev
-  ws-opts:
-    path: /ZJpOz6X2zf92?ed=2048&proxyip=5.75.182.89:443
-    headers:
-      Host: zizifnjavid.foreverstar1356.workers.dev
-- type: vless
-  name: zizifnjavid-forevers-401721da-61
+  name: zizifnjavid-forevers-401721da-54
   server: zizifnjavid.foreverstar1356.workers.dev
   port: 2052
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
@@ -3325,11 +3985,23 @@ proxies:
   tls: false
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /2PYQpTu9pr2v?ed=2048&proxyip=8.209.83.19:443
+    path: /l0UrloYKDA91?ed=2048&proxyip=31.58.138.2:443
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 - type: vless
-  name: zizifnjavid-forevers-401721da-62
+  name: zizifnjavid-forevers-401721da-55
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 443
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /VlRl3Ng6tWMF?ed=2048&proxyip=31.77.126.2:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-56
   server: zizifnjavid.foreverstar1356.workers.dev
   port: 8080
   uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
@@ -3337,7 +4009,79 @@ proxies:
   tls: false
   servername: zizifnjavid.foreverstar1356.workers.dev
   ws-opts:
-    path: /LhPv3knoRR29?ed=2048&proxyip=161.97.66.16:443
+    path: /e6jcIMxvZ4GN?ed=2048&proxyip=144.31.72.69:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-57
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 2095
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: false
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /hodOV2PjxiDq?ed=2048&proxyip=3.29.240.49:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-58
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 8880
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: false
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /pyJP943Vv4bE?ed=2048&proxyip=130.94.1.150:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-59
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 443
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /O0H7pJBtT5fL?ed=2048&proxyip=31.76.96.60:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-60
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 2096
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /JkjPqZCBADgI?ed=2048&proxyip=5.75.182.89:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-61
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 2082
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: false
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /bWC8CCJbJJdv?ed=2048&proxyip=8.209.83.19:443
+    headers:
+      Host: zizifnjavid.foreverstar1356.workers.dev
+- type: vless
+  name: zizifnjavid-forevers-401721da-62
+  server: zizifnjavid.foreverstar1356.workers.dev
+  port: 2083
+  uuid: 6bd588b5-f5fd-4690-8fab-35bffbab80ab
+  network: ws
+  tls: true
+  servername: zizifnjavid.foreverstar1356.workers.dev
+  ws-opts:
+    path: /0fYLMDeI9v65?ed=2048&proxyip=161.97.66.16:443
     headers:
       Host: zizifnjavid.foreverstar1356.workers.dev
 proxy-groups:
@@ -3346,6 +4090,68 @@ proxy-groups:
   proxies:
   - ♻️ خودکار
   - DIRECT
+  - zr-wasm-mahdijavid37-59e37370
+  - zr-wasm-mahdijavid37-59e37370-2
+  - zr-wasm-mahdijavid37-59e37370-3
+  - zr-wasm-mahdijavid37-59e37370-4
+  - zr-wasm-mahdijavid37-59e37370-5
+  - zr-wasm-mahdijavid37-59e37370-6
+  - zr-wasm-mahdijavid37-59e37370-7
+  - zr-wasm-mahdijavid37-59e37370-8
+  - zr-wasm-mahdijavid37-59e37370-9
+  - zr-wasm-mahdijavid37-59e37370-10
+  - zr-wasm-mahdijavid37-59e37370-11
+  - zr-wasm-mahdijavid37-59e37370-12
+  - zr-wasm-mahdijavid37-59e37370-13
+  - zr-wasm-mahdijavid37-59e37370-14
+  - zr-wasm-mahdijavid37-59e37370-15
+  - zr-wasm-mahdijavid37-59e37370-16
+  - zr-wasm-mahdijavid37-59e37370-17
+  - zr-wasm-mahdijavid37-59e37370-18
+  - zr-wasm-mahdijavid37-59e37370-19
+  - zr-wasm-mahdijavid37-59e37370-20
+  - zr-wasm-mahdijavid37-59e37370-21
+  - zr-wasm-mahdijavid37-59e37370-22
+  - zr-wasm-mahdijavid37-59e37370-23
+  - zr-wasm-mahdijavid37-59e37370-24
+  - zr-wasm-mahdijavid37-59e37370-25
+  - zr-wasm-mahdijavid37-59e37370-26
+  - zr-wasm-mahdijavid37-59e37370-27
+  - zr-wasm-mahdijavid37-59e37370-28
+  - zr-wasm-mahdijavid37-59e37370-29
+  - zr-wasm-mahdijavid37-59e37370-30
+  - zr-wasm-mahdijavid37-59e37370-31
+  - zr-wasm-mahdijavid37-59e37370-32
+  - zr-wasm-mahdijavid37-59e37370-33
+  - zr-wasm-mahdijavid37-59e37370-34
+  - zr-wasm-mahdijavid37-59e37370-35
+  - zr-wasm-mahdijavid37-59e37370-36
+  - zr-wasm-mahdijavid37-59e37370-37
+  - zr-wasm-mahdijavid37-59e37370-38
+  - zr-wasm-mahdijavid37-59e37370-39
+  - zr-wasm-mahdijavid37-59e37370-40
+  - zr-wasm-mahdijavid37-59e37370-41
+  - zr-wasm-mahdijavid37-59e37370-42
+  - zr-wasm-mahdijavid37-59e37370-43
+  - zr-wasm-mahdijavid37-59e37370-44
+  - zr-wasm-mahdijavid37-59e37370-45
+  - zr-wasm-mahdijavid37-59e37370-46
+  - zr-wasm-mahdijavid37-59e37370-47
+  - zr-wasm-mahdijavid37-59e37370-48
+  - zr-wasm-mahdijavid37-59e37370-49
+  - zr-wasm-mahdijavid37-59e37370-50
+  - zr-wasm-mahdijavid37-59e37370-51
+  - zr-wasm-mahdijavid37-59e37370-52
+  - zr-wasm-mahdijavid37-59e37370-53
+  - zr-wasm-mahdijavid37-59e37370-54
+  - zr-wasm-mahdijavid37-59e37370-55
+  - zr-wasm-mahdijavid37-59e37370-56
+  - zr-wasm-mahdijavid37-59e37370-57
+  - zr-wasm-mahdijavid37-59e37370-58
+  - zr-wasm-mahdijavid37-59e37370-59
+  - zr-wasm-mahdijavid37-59e37370-60
+  - zr-wasm-mahdijavid37-59e37370-61
+  - zr-wasm-mahdijavid37-59e37370-62
   - zizijavid-mahdijavid-68e85e74
   - zizijavid-mahdijavid-68e85e74-2
   - zizijavid-mahdijavid-68e85e74-3
@@ -3408,84 +4214,84 @@ proxy-groups:
   - zizijavid-mahdijavid-68e85e74-60
   - zizijavid-mahdijavid-68e85e74-61
   - zizijavid-mahdijavid-68e85e74-62
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-DanNw
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-QUuV2
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-yU3EC
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-5Iifs
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-UbFVL
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-37riG
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-A5zz0
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-b3IIA
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-yqkkl
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-BoXQi
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-RBLsk
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-gzE24
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-PueiG
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-xlwwp
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-jj1jI
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-BHeNp
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-Z27cN
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-jst5t
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-PZbxC
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-VjyAz
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-cJAdg
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-VSRo2
-  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-UBZys
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-WelaH
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-hJ7YM
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-PFhtB
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-W0yGz
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-lky9X
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-j1wxV
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-0GUzH
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-k186e
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-IIhoW
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-267j3
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-mFqrI
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-THv6t
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-GO2dX
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-3mcxs
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-7qLvT
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-AnSdV
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-e6iHI
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-CEOZF
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-R41Q2
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-tx5Qf
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-WUkvb
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-f8Rk7
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-1w6Gs
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-8WVPu
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-6fSP8
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-rlNz3
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-fLkZe
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-VGBI5
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-wmcoF
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-Odgfk
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-D4sao
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-URDKo
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-1uCfN
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-VqltR
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-5QuxL
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-tSApl
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-twO0e
-  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-C2zGd
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-2BV6z
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-kCUR0
-  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-RPjr1
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-4nDH6
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-UyNRn
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-TqdAB
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-d6QuK
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-Ez2Qf
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-41738
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-17xCQ
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-S7uT7
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-a8W5N
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-8yvwE
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-w0lai
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-VinBO
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-1yz6M
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-s6Hjx
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-LCmTY
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-4mFTb
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-RkdB6
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-FKt7c
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-Wu8n9
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-53kjk
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-APnwC
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-UvNUn
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-yiOkY
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-4Iw2S
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-tFay6
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-ZmQUQ
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-AIzVp
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-lwFNE
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-JAS8Q
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-6MG02
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-SAxLg
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-4EJ4u
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-ugqIc
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-D54ua
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-mUKzR
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-bDSou
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-Q10Tr
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-8DPiH
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-5GcJc
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-Arbpi
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-frg4Z
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-419hi
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-laHyW
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-aDZdX
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-o74VZ
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-b6FvK
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-Tjxy3
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-uTa9a
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-FAHNo
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-J1Vz9
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-e96xh
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-lHMhT
+  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-kLrJT
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-AYBPi
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-i24Sm
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-LTZqb
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-lyrcQ
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-6uHXL
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-gWJkZ
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-Dzy2G
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-yuU1G
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-xGVZJ
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-Wh0zr
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-F25eZ
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-Brg57
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-qJNWo
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-JbUEw
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-63BUA
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-HhlDn
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-iNwvx
+  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-7whJQ
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-Kckj1
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-0XbAS
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-GnFKS
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-kdUHB
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-W3J00
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-undEX
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-5mkNI
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-m0gMe
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-kMDYS
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-JkE9Q
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-HPAIY
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-A1SDq
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-a0wUj
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-MrqLg
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-Er0rW
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-CYsbF
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-6yr8r
+  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-7sOrU
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-BBOYf
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-DWGeR
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-rSBUp
   - rayan63-1tjy5eqc-v1--f6d64fac
   - rayan63-1tjy5eqc-v1--f6d64fac-2
   - rayan63-1tjy5eqc-v1--f6d64fac-3
@@ -3629,6 +4435,68 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - zr-wasm-mahdijavid37-59e37370
+  - zr-wasm-mahdijavid37-59e37370-2
+  - zr-wasm-mahdijavid37-59e37370-3
+  - zr-wasm-mahdijavid37-59e37370-4
+  - zr-wasm-mahdijavid37-59e37370-5
+  - zr-wasm-mahdijavid37-59e37370-6
+  - zr-wasm-mahdijavid37-59e37370-7
+  - zr-wasm-mahdijavid37-59e37370-8
+  - zr-wasm-mahdijavid37-59e37370-9
+  - zr-wasm-mahdijavid37-59e37370-10
+  - zr-wasm-mahdijavid37-59e37370-11
+  - zr-wasm-mahdijavid37-59e37370-12
+  - zr-wasm-mahdijavid37-59e37370-13
+  - zr-wasm-mahdijavid37-59e37370-14
+  - zr-wasm-mahdijavid37-59e37370-15
+  - zr-wasm-mahdijavid37-59e37370-16
+  - zr-wasm-mahdijavid37-59e37370-17
+  - zr-wasm-mahdijavid37-59e37370-18
+  - zr-wasm-mahdijavid37-59e37370-19
+  - zr-wasm-mahdijavid37-59e37370-20
+  - zr-wasm-mahdijavid37-59e37370-21
+  - zr-wasm-mahdijavid37-59e37370-22
+  - zr-wasm-mahdijavid37-59e37370-23
+  - zr-wasm-mahdijavid37-59e37370-24
+  - zr-wasm-mahdijavid37-59e37370-25
+  - zr-wasm-mahdijavid37-59e37370-26
+  - zr-wasm-mahdijavid37-59e37370-27
+  - zr-wasm-mahdijavid37-59e37370-28
+  - zr-wasm-mahdijavid37-59e37370-29
+  - zr-wasm-mahdijavid37-59e37370-30
+  - zr-wasm-mahdijavid37-59e37370-31
+  - zr-wasm-mahdijavid37-59e37370-32
+  - zr-wasm-mahdijavid37-59e37370-33
+  - zr-wasm-mahdijavid37-59e37370-34
+  - zr-wasm-mahdijavid37-59e37370-35
+  - zr-wasm-mahdijavid37-59e37370-36
+  - zr-wasm-mahdijavid37-59e37370-37
+  - zr-wasm-mahdijavid37-59e37370-38
+  - zr-wasm-mahdijavid37-59e37370-39
+  - zr-wasm-mahdijavid37-59e37370-40
+  - zr-wasm-mahdijavid37-59e37370-41
+  - zr-wasm-mahdijavid37-59e37370-42
+  - zr-wasm-mahdijavid37-59e37370-43
+  - zr-wasm-mahdijavid37-59e37370-44
+  - zr-wasm-mahdijavid37-59e37370-45
+  - zr-wasm-mahdijavid37-59e37370-46
+  - zr-wasm-mahdijavid37-59e37370-47
+  - zr-wasm-mahdijavid37-59e37370-48
+  - zr-wasm-mahdijavid37-59e37370-49
+  - zr-wasm-mahdijavid37-59e37370-50
+  - zr-wasm-mahdijavid37-59e37370-51
+  - zr-wasm-mahdijavid37-59e37370-52
+  - zr-wasm-mahdijavid37-59e37370-53
+  - zr-wasm-mahdijavid37-59e37370-54
+  - zr-wasm-mahdijavid37-59e37370-55
+  - zr-wasm-mahdijavid37-59e37370-56
+  - zr-wasm-mahdijavid37-59e37370-57
+  - zr-wasm-mahdijavid37-59e37370-58
+  - zr-wasm-mahdijavid37-59e37370-59
+  - zr-wasm-mahdijavid37-59e37370-60
+  - zr-wasm-mahdijavid37-59e37370-61
+  - zr-wasm-mahdijavid37-59e37370-62
   - zizijavid-mahdijavid-68e85e74
   - zizijavid-mahdijavid-68e85e74-2
   - zizijavid-mahdijavid-68e85e74-3
@@ -3691,84 +4559,84 @@ proxy-groups:
   - zizijavid-mahdijavid-68e85e74-60
   - zizijavid-mahdijavid-68e85e74-61
   - zizijavid-mahdijavid-68e85e74-62
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-DanNw
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-QUuV2
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-yU3EC
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-5Iifs
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-UbFVL
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-37riG
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-A5zz0
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-b3IIA
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-yqkkl
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-BoXQi
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-RBLsk
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-gzE24
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-PueiG
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-xlwwp
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-jj1jI
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-BHeNp
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-Z27cN
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-jst5t
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-PZbxC
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-VjyAz
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-cJAdg
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-VSRo2
-  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-UBZys
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-WelaH
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-hJ7YM
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-PFhtB
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-W0yGz
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-lky9X
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-j1wxV
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-0GUzH
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-k186e
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-IIhoW
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-267j3
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-mFqrI
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-THv6t
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-GO2dX
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-3mcxs
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-7qLvT
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-AnSdV
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-e6iHI
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-CEOZF
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-R41Q2
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-tx5Qf
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-WUkvb
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-f8Rk7
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-1w6Gs
-  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-8WVPu
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-6fSP8
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-rlNz3
-  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-fLkZe
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-VGBI5
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-wmcoF
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-Odgfk
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-D4sao
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-URDKo
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-1uCfN
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-VqltR
-  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-5QuxL
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-tSApl
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-twO0e
-  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-C2zGd
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-2BV6z
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-kCUR0
-  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-RPjr1
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-4nDH6
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-UyNRn
-  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-TqdAB
-  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-d6QuK
-  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-Ez2Qf
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-41738
-  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-17xCQ
-  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-S7uT7
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-a8W5N
-  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-8yvwE
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-w0lai
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-VinBO
-  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-1yz6M
-  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-s6Hjx
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-LCmTY
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-4mFTb
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-RkdB6
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-FKt7c
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-Wu8n9
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-53kjk
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-APnwC
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-UvNUn
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-yiOkY
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-4Iw2S
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-tFay6
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-ZmQUQ
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-AIzVp
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-lwFNE
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-JAS8Q
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-6MG02
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-SAxLg
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-4EJ4u
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-ugqIc
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-D54ua
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-mUKzR
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-bDSou
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-Q10Tr
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-8DPiH
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-5GcJc
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-Arbpi
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-frg4Z
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-419hi
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-laHyW
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-aDZdX
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-o74VZ
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-b6FvK
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-Tjxy3
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-uTa9a
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-FAHNo
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-J1Vz9
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-e96xh
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-lHMhT
+  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-kLrJT
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-AYBPi
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-i24Sm
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-LTZqb
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-lyrcQ
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-6uHXL
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-gWJkZ
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-Dzy2G
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-yuU1G
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-xGVZJ
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-Wh0zr
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-F25eZ
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-Brg57
+  - zr-wasm-mah123-efc-workers-dev-2086-6ee6246d-qJNWo
+  - zr-wasm-mah123-efc-workers-dev-2087-6ee6246d-JbUEw
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-63BUA
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-HhlDn
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-iNwvx
+  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-7whJQ
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-Kckj1
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-0XbAS
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-GnFKS
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-kdUHB
+  - zr-wasm-mah123-efc-workers-dev-2095-6ee6246d-W3J00
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-undEX
+  - zr-wasm-mah123-efc-workers-dev-80-6ee6246d-5mkNI
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-m0gMe
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-kMDYS
+  - zr-wasm-mah123-efc-workers-dev-2053-6ee6246d-JkE9Q
+  - zr-wasm-mah123-efc-workers-dev-8880-6ee6246d-HPAIY
+  - zr-wasm-mah123-efc-workers-dev-2083-6ee6246d-A1SDq
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-a0wUj
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-MrqLg
+  - zr-wasm-mah123-efc-workers-dev-2052-6ee6246d-Er0rW
+  - zr-wasm-mah123-efc-workers-dev-443-6ee6246d-CYsbF
+  - zr-wasm-mah123-efc-workers-dev-8080-6ee6246d-6yr8r
+  - zr-wasm-mah123-efc-workers-dev-8443-6ee6246d-7sOrU
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-BBOYf
+  - zr-wasm-mah123-efc-workers-dev-2096-6ee6246d-DWGeR
+  - zr-wasm-mah123-efc-workers-dev-2082-6ee6246d-rSBUp
   - rayan63-1tjy5eqc-v1--f6d64fac
   - rayan63-1tjy5eqc-v1--f6d64fac-2
   - rayan63-1tjy5eqc-v1--f6d64fac-3
